@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development/Web on mingzzi&#39;s blog</title>
+    <link>/categories/development/web/</link>
+    <description>Recent content in Development/Web on mingzzi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    
+	<atom:link href="/categories/development/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Chrome] Chrome Headless 사용법</title>
+      <link>/development/web/2018-09-29-chrome-headless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/development/web/2018-09-29-chrome-headless/</guid>
+      <description>&lt;p&gt;하는 일이 일이다보니 크고작은 CTF용 문제를 낼 일이 많다.&lt;/p&gt;
+&lt;p&gt;그런데 &lt;code&gt;XSS&lt;/code&gt; 문제를 낼 때마다 고민인게, 참가자들이 문제를 제대로 풀었다는 것을 어떻게 검증하느냐 이다.&lt;/p&gt;
+&lt;p&gt;그러다 &lt;code&gt;Chrome Headless&lt;/code&gt;라는 것을 알게 되어 정리해 두려 한다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Code-Server] 웹 브라우저로 원격 서버에 접속 해 개발하기 (feat. VSCode)</title>
+      <link>/development/web/2020-05-13-install_code-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/development/web/2020-05-13-install_code-server/</guid>
+      <description>&lt;p&gt;회사에서 일하다 보면 Xshell은 설치할 수 없는데 원격 서버에서 뭔가 테스트용 코드를 짜야 할 일이 생긴다.&lt;/p&gt;
+&lt;p&gt;그래서 찾아보게 된 &lt;code&gt;code-server&lt;/code&gt;이다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Spring 게시판 만들기] Spring 개발 환경 구축하기</title>
+      <link>/development/web/2020-02-18-spring-setting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/development/web/2020-02-18-spring-setting/</guid>
+      <description>&lt;p&gt;많은 곳에서 &lt;code&gt;Spring&lt;/code&gt;을 가지고 웹 개발을 한다고 한다.&lt;/p&gt;
+&lt;p&gt;나는 웹 개발은 &lt;code&gt;PHP&lt;/code&gt;나 &lt;code&gt;JSP&lt;/code&gt;, 그것도 거의 학교 과제 수준밖에 안해봤기 때문에 &lt;code&gt;Spring&lt;/code&gt;은 전혀 모른다.&lt;/p&gt;
+&lt;p&gt;근데 구조 등을 알면 일할 때 편하지 않을까 싶어 게시판을 만들어 보려고 한다.&lt;/p&gt;
+&lt;p&gt;오늘은 게시판을 만들기 위하여 &lt;code&gt;Spring&lt;/code&gt;을 구축하는 방법을 정리한다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Javascript 난독화 기법</title>
+      <link>/development/web/2019-03-10-js-obfuscation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/development/web/2019-03-10-js-obfuscation/</guid>
+      <description>&lt;p&gt;요즘 난독화 된 Javascript를 자주 보게 되었다.&lt;/p&gt;
+&lt;p&gt;그래서 Javascript의 난독화 기법을 몇 가지 정리 해 두려 한다.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

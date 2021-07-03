@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development/Github Blog on mingzzi&#39;s blog</title>
+    <link>/categories/development/github-blog/</link>
+    <description>Recent content in Development/Github Blog on mingzzi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    
+	<atom:link href="/categories/development/github-blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Jekyll] Local에 Github Blog 세팅하기</title>
+      <link>/development/github-blog/2020-01-06-jekyll-local_blog_setting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/development/github-blog/2020-01-06-jekyll-local_blog_setting/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Github&lt;/code&gt; 블로그를 운영 중에 게시글이 많아지며 블로그 리뉴얼의 필요성을 느꼈다.&lt;/p&gt;
+&lt;p&gt;테마를 싹 바꾸는 대대적인 작업이기 때문에 먼저 로컬에서 작업 후, 완성본을 &lt;code&gt;Github&lt;/code&gt;에 &lt;code&gt;push&lt;/code&gt; 하기로 했다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Jekyll] Syntax Highlighting with rouge</title>
+      <link>/development/github-blog/2020-06-16-jekyll-rougify_theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/development/github-blog/2020-06-16-jekyll-rougify_theme/</guid>
+      <description>&lt;p&gt;내 블로그에서는 &lt;code&gt;Syntax Highlighting&lt;/code&gt;을 위해 &lt;code&gt;rouge&lt;/code&gt;를 사용하고 있다.&lt;/p&gt;
+&lt;p&gt;기존에 사용하던 검은 바탕의 &lt;code&gt;Syntax Highlighting&lt;/code&gt;이 답답하고 가독성이 떨어져 보여 바꾸고 싶어 찾던 중 생각보다 자료가 별로 없어 따로 정리 해 두게 되었다.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

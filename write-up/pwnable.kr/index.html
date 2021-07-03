@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+
+    <base href="">
+    <title> mingzzi&#39;s blog </title>
+    <meta name="description" content="this is description">
+
+    <link rel="canonical" href="/write-up/pwnable.kr/">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    
+    <link rel="stylesheet" href="/sass/main.min.1180c1166ae9fce8b9694d59f69d3fa2f4d9bae4788aa2f550a7a1c42a7c734c.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304424-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130304424-1');
+    </script>
+
+    
+    <script data-ad-client="ca-pub-1587587893565234" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script>
+        $(function () {
+            $(".cat1>li").click(function () {
+                $(this).siblings().find('ul').slideUp(300);
+                $(this).find('ul').slideToggle(300);
+            })
+
+            $(window).scroll(function () {
+                activeBg();
+            });
+
+            activeBg();
+
+
+            $('.h-menu').click(function (e) {
+                e.preventDefault();
+                $('.side').addClass('on');
+            });
+
+            $('.close').click(function (e) {
+                e.preventDefault();
+                $('.side').removeClass('on');
+            });
+
+            $('ul.slide>li').click(function () {
+                if ($(this).find('.down').hasClass('on')) {
+                    $(this).find('.down').removeClass('on');
+                    $(this).find('.down').prev().stop().slideUp(500);
+                } else {
+                    $(this).find('.down').addClass('on');
+                    $(this).find('.down').prev().stop().slideDown(500);
+                }
+            })
+        })
+
+        function activeBg() {
+            if ($(window).scrollTop() > 0) {
+                $('.site-header').addClass('on');
+            } else {
+                $('.site-header').removeClass('on');
+            }
+        }
+
+    </script>
+</head>
+<header class="site-header">
+    <h1 class="web-t" onclick="window.location.href='/'"><span>def</span><em> 천방지축 얼렁뚱땅
+        </em><span>(</span><i>🤣</i><span>)</span>:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="nbsp">title =</span> 빙글빙글 돌아가는 우당탕탕 시큐로그
+        <br />
+    </h1>
+
+    <h1 class="mob-t" onclick="window.location.href='/'">
+        <span>천/얼/빙/돌(</span><i>🤣</i><span>)</span>
+        <br />우당탕탕 시큐로그
+    </h1>
+
+    <nav>
+        <div class="h-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="side">
+            <div class="close">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="slide">
+                <li class="on"><a href="#">All Post</a>
+                </li>
+                <li><a href="#">Pentesting</a>
+                    <ul>
+                        <li><a href="#">iOS</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Cloud</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Wargame</a>
+                    <ul>
+                        <li><a href="#">Load of SQL Injection</a></li>
+                        <li><a href="#">OWASP-MSTG</a></li>
+                        <li><a href="#">Pwnable.kr</a></li>
+                        <li><a href="#">Wargame.kr</a></li>
+                        <li><a href="#">XSS Game</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">CTF</a>
+                    <ul>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2019</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Error</a>
+                    <ul>
+                        <li><a href="#">Linux</a></li>
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">Python</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Development</a>
+                    <ul>
+                        <li><a href="#">Database</a></li>
+                        <li><a href="#">Github Blog</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Docker</a></li>
+                        <li><a href="#">Basic</a></li>
+                        <li><a href="#">Secure Coding</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="content">
+        
+        
+<div class="home">
+    <div class="posts">
+        <nav>
+    <h2>Menu</h2>
+    <ul class="slide">
+        <li class="on"><a>All Post</a>
+        </li>
+        <li><a href="/pentesting">Pentesting</a>
+            <ul>
+                <li><a href="/pentesting/ios">iOS</a></li>
+                <li><a href="/pentesting/android">Android</a></li>
+                <li><a href="/pentesting/web">Web</a></li>
+                <li><a href="/pentesting/cloud">Cloud</a></li>
+            </ul>
+            <span class="down"></span>
+        </li>
+        <li><a href="/wargame">Wargame</a>
+            <ul>
+                <li><a href="/wargame/lord of sql injection">Lord of SQL Injection</a></li>
+                <li><a href="/wargame/pwnable.kr">Pwnable.kr</a></li>
+                <li><a href="/wargame/wargame.kr">Wargame.kr</a></li>
+                <li><a href="/wargame/xss game">XSS Game</a></li>
+            </ul>
+            <span class="down"></span>
+        </li>
+        <li><a href="/ctf">CTF</a>
+            <ul>
+                <li><a href="/ctf/2018">2018</a></li>
+                <li><a href="/ctf/2019">2019</a></li>
+            </ul>
+            <span class="down"></span>
+        </li>
+        <li><a href="/error">Error</a>
+            <ul>
+                <li><a href="/error/linux">Linux</a></li>
+                <li><a href="/error/windows">Windows</a></li>
+                <li><a href="/error/python">Python</a></li>
+            </ul>
+            <span class="down"></span>
+        </li>
+        <li><a href="/development">Development</a>
+            <ul>
+                <li><a href="/development/database">Database</a></li>
+                <li><a href="/development/github blog">Github Blog</a></li>
+                <li><a href="/development/web">Web</a></li>
+                <li><a href="/development/docker">Docker</a></li>
+                <li><a href="/development/basic">Basic</a></li>
+                <li><a href="/development/secure coding">Secure Coding</a></li>
+            </ul>
+            <span class="down"></span>
+        </li>
+        <hr />
+        <li><a href="/about">About</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/tags">Tag</a></li>
+    </ul>
+</nav>
+
+        <div>
+            <h3> Posts <span>5</span></h3>
+            <ul class="post-box">
+                
+                <li class="post-teaser">
+                    <a href="/write-up/pwnable.kr/2021/05/05/2018-07-18-ctf-meepwn2018-omegasector.html/">
+                        <div>
+                            <em></em>
+                            <h4>[MeePwn2018] OMEGASECTOR Write up</h4>
+                            <div class="post-info">
+                                <p class="meta">
+                                    2021-05-05
+                                </p>
+                                <div class="excerpt">
+                                    <p><code>OMEGASECTOR</code> 문제는 가장 오랜 시간 <del>그렇다고 해도 길진 않았지만</del> 고민했던 문제이다.</p>
+<p>역시나 대회 기간에는 풀지 못했다(ㅠㅠ).</p>
+<p>풀이를 보며 <code>아 왜 난 이 생각을 못했었지!</code> 한 점이 많아서 Write up을 작성 해 본다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="post-teaser">
+                    <a href="/write-up/pwnable.kr/2021/05/05/2018-07-17-ctf-meepwn2018-writeup.html/">
+                        <div>
+                            <em></em>
+                            <h4>[MeePwn2018] WHITE SNOW, BLACK SHADOW / ESOR / EZCHALLZ Write up</h4>
+                            <div class="post-info">
+                                <p class="meta">
+                                    2021-05-05
+                                </p>
+                                <div class="excerpt">
+                                    <p>지난 주말에 <code>MeePwn CTF</code>가 있었다.</p>
+<p>다른 일이 있어 풀타임으로 참여하진 못했는데, 그래도 쉬운 몇 문제를 풀어 Write-up을 작성 해 보았다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="post-teaser">
+                    <a href="/write-up/pwnable.kr/2021/05/05/2018-05-23-ctf-rctf2018-amp.html/">
+                        <div>
+                            <em></em>
+                            <h4>[RCTF2018] amp Write up</h4>
+                            <div class="post-info">
+                                <p class="meta">
+                                    2021-05-05
+                                </p>
+                                <div class="excerpt">
+                                    <p>2018년 5월 19일부터 5월 21일까지 RCTF가 있었다.</p>
+<p>비록 대회 도중에는 문제를 못풀었지만, 대회 종료 후 amp 문제를 풀게되어 Write-up을 작성하게 되었다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="post-teaser">
+                    <a href="/write-up/pwnable.kr/2021/05/05/2018-05-27-ctf-rctf2018-rblog.html/">
+                        <div>
+                            <em></em>
+                            <h4>[RCTF2018] rblog Write up</h4>
+                            <div class="post-info">
+                                <p class="meta">
+                                    2021-05-05
+                                </p>
+                                <div class="excerpt">
+                                    <p><code>rblog</code>는 <code>RCTF 2018</code>에 출제되었던 XSS 문제인데, 대회 기간에는 풀이하지 못했다가 Write-up이 올라온 후 풀어보게 되었다.</p>
+<p>문제 정보는 아래와 같다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="post-teaser">
+                    <a href="/write-up/pwnable.kr/2019/05/05/2018-07-29-ctf-isitdtu2018-iz.html/">
+                        <div>
+                            <em></em>
+                            <h4>[ISITDTU 2018] IZ Write up</h4>
+                            <div class="post-info">
+                                <p class="meta">
+                                    2019-05-05
+                                </p>
+                                <div class="excerpt">
+                                    <p>이번 주말에 CTF 천국이었다.</p>
+<p>무려 3개가 비슷한 시기에 있었다.</p>
+<p>사실 <code>ISITDTU CTF</code>는 대회 시간에 참여를 못했는데, <code>CODEBLUE CTF</code> 문제를 보다보니 멘탈이 날아가서 이미 끝난 대회 문제를 다시 봤다.</p>
+<p>멘탈을 치유하려고 출제됬던 웹 문제중에 가장 쉬워보이는 <code>IZ</code> 문제를 선택해서 풀었는데 얘는 좀 다른 방향으로 멘탈이 나갔다. ㅎㅎ</p>
+<p>알고나니 문제는 어렵지 않았는데, 다음에는 이러지 말자는 나름의 반성일기 겸 풀이를 작성했다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+
+</div>
+
+    </div>
+    <ul class='social'>
+    
+    <li>
+        <a href="https://www.github.com/ATFutures" class="icon alt" target="_blank">
+            <i class="fa fa-github fa-2x"></i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="https://www.github.com/ATFutures" class="icon alt" target="_blank">
+            <i class="fa fa-instagram fa-2x"></i>
+        </a>
+    </li>
+    
+</ul>
+<footer class="site-footer">
+    <p ckass="text">Powered by <a href="https://mingzz1.github.io" target="_blank">mingzzi</a> with <a
+            href="https://myun-d.github.io/" target="_blank">myund</a></p>
+</footer>
+    <script id="dsq-count-scr" src="//mingzzis-blog.disqus.com/count.js" async></script>
+
+    
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-130304424-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    
+</body>
+</body>
+
+</html>

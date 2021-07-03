@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on mingzzi&#39;s blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on mingzzi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 05 May 2021 12:59:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CTF</title>
+      <link>/tags/ctf/</link>
+      <pubDate>Wed, 05 May 2021 12:59:44 +0000</pubDate>
+      
+      <guid>/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RCTF2018</title>
+      <link>/tags/rctf2018/</link>
+      <pubDate>Wed, 05 May 2021 12:59:44 +0000</pubDate>
+      
+      <guid>/tags/rctf2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Write-up</title>
+      <link>/tags/write-up/</link>
+      <pubDate>Wed, 05 May 2021 12:59:44 +0000</pubDate>
+      
+      <guid>/tags/write-up/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/tags/development/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React-Native</title>
+      <link>/tags/react-native/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>/tags/jenkins/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>/tags/ios/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pentesting</title>
+      <link>/tags/pentesting/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pentesting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>/tags/android/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frida</title>
+      <link>/tags/frida/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/frida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error</title>
+      <link>/tags/error/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VMware</title>
+      <link>/tags/vmware/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xshell</title>
+      <link>/tags/xshell/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xshell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github Blog</title>
+      <link>/tags/github-blog/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>/tags/jekyll/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BurpSuite</title>
+      <link>/tags/burpsuite/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/burpsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>/tags/cloud/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/tags/security/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/tags/web/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure Coding</title>
+      <link>/tags/secure-coding/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/secure-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring</title>
+      <link>/tags/spring/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>/tags/web-development/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>/tags/database/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DB2</title>
+      <link>/tags/db2/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/db2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CCE2019</title>
+      <link>/tags/cce2019/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cce2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POXX2019</title>
+      <link>/tags/poxx2019/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/poxx2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defcon2019</title>
+      <link>/tags/defcon2019/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/defcon2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VolgaCTF2019</title>
+      <link>/tags/volgactf2019/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/volgactf2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code Server</title>
+      <link>/tags/code-server/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/code-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obfuscation</title>
+      <link>/tags/obfuscation/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>/tags/vscode/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>insomnihack2019</title>
+      <link>/tags/insomnihack2019/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/insomnihack2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>35C3CTF2018</title>
+      <link>/tags/35c3ctf2018/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/35c3ctf2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TenDollar2018</title>
+      <link>/tags/tendollar2018/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tendollar2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome Headless</title>
+      <link>/tags/chrome-headless/</link>
+      <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chrome-headless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XSS Game</title>
+      <link>/tags/xss-game/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xss-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System</title>
+      <link>/tags/system/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackover2018</title>
+      <link>/tags/hackover2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hackover2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISITDTU2018</title>
+      <link>/tags/isitdtu2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/isitdtu2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lord of SQL Injection</title>
+      <link>/tags/lord-of-sql-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lord-of-sql-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeePwn2018</title>
+      <link>/tags/meepwn2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/meepwn2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OWASP-MSTG</title>
+      <link>/tags/owasp-mstg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/owasp-mstg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POXX2018</title>
+      <link>/tags/poxx2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/poxx2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pwnable.kr</title>
+      <link>/tags/pwnable.kr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pwnable.kr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RITSEC2018</title>
+      <link>/tags/ritsec2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ritsec2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wargame.kr</title>
+      <link>/tags/wargame.kr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wargame.kr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

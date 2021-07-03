@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+
+    <base href="">
+    <title> mingzzi&#39;s blog </title>
+    <meta name="description" content="this is description">
+
+    <link rel="canonical" href="/development/github-blog/2020-01-06-jekyll-local_blog_setting/">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    
+    <link rel="stylesheet" href="/sass/main.min.1180c1166ae9fce8b9694d59f69d3fa2f4d9bae4788aa2f550a7a1c42a7c734c.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304424-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130304424-1');
+    </script>
+
+    
+    <script data-ad-client="ca-pub-1587587893565234" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script>
+        $(function () {
+            $(".cat1>li").click(function () {
+                $(this).siblings().find('ul').slideUp(300);
+                $(this).find('ul').slideToggle(300);
+            })
+
+            $(window).scroll(function () {
+                activeBg();
+            });
+
+            activeBg();
+
+
+            $('.h-menu').click(function (e) {
+                e.preventDefault();
+                $('.side').addClass('on');
+            });
+
+            $('.close').click(function (e) {
+                e.preventDefault();
+                $('.side').removeClass('on');
+            });
+
+            $('ul.slide>li').click(function () {
+                if ($(this).find('.down').hasClass('on')) {
+                    $(this).find('.down').removeClass('on');
+                    $(this).find('.down').prev().stop().slideUp(500);
+                } else {
+                    $(this).find('.down').addClass('on');
+                    $(this).find('.down').prev().stop().slideDown(500);
+                }
+            })
+        })
+
+        function activeBg() {
+            if ($(window).scrollTop() > 0) {
+                $('.site-header').addClass('on');
+            } else {
+                $('.site-header').removeClass('on');
+            }
+        }
+
+    </script>
+</head>
+<header class="site-header">
+    <h1 class="web-t" onclick="window.location.href='/'"><span>def</span><em> 천방지축 얼렁뚱땅
+        </em><span>(</span><i>🤣</i><span>)</span>:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="nbsp">title =</span> 빙글빙글 돌아가는 우당탕탕 시큐로그
+        <br />
+    </h1>
+
+    <h1 class="mob-t" onclick="window.location.href='/'">
+        <span>천/얼/빙/돌(</span><i>🤣</i><span>)</span>
+        <br />우당탕탕 시큐로그
+    </h1>
+
+    <nav>
+        <div class="h-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="side">
+            <div class="close">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="slide">
+                <li class="on"><a href="#">All Post</a>
+                </li>
+                <li><a href="#">Pentesting</a>
+                    <ul>
+                        <li><a href="#">iOS</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Cloud</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Wargame</a>
+                    <ul>
+                        <li><a href="#">Load of SQL Injection</a></li>
+                        <li><a href="#">OWASP-MSTG</a></li>
+                        <li><a href="#">Pwnable.kr</a></li>
+                        <li><a href="#">Wargame.kr</a></li>
+                        <li><a href="#">XSS Game</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">CTF</a>
+                    <ul>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2019</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Error</a>
+                    <ul>
+                        <li><a href="#">Linux</a></li>
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">Python</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+                <li><a href="#">Development</a>
+                    <ul>
+                        <li><a href="#">Database</a></li>
+                        <li><a href="#">Github Blog</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Docker</a></li>
+                        <li><a href="#">Basic</a></li>
+                        <li><a href="#">Secure Coding</a></li>
+                    </ul>
+                    <span class="down"></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="content">
+        
+        
+
+<article>
+    <header>
+        <h1 class="title">[Jekyll] Local에 Github Blog 세팅하기</h1>
+        <p class="meta">
+            0001-01-01
+        </p>
+    </header>
+    <section class="post-content"><p><code>Github</code> 블로그를 운영 중에 게시글이 많아지며 블로그 리뉴얼의 필요성을 느꼈다.</p>
+<p>테마를 싹 바꾸는 대대적인 작업이기 때문에 먼저 로컬에서 작업 후, 완성본을 <code>Github</code>에 <code>push</code> 하기로 했다.</p>
+<p>나는 <code>Ubuntu 16.04 Server version</code>에 세팅을 했다.</p>
+<p>설치를 해야하는 항목은 다음과 같다.</p>
+<ul>
+<li>Nodejs</li>
+<li>RubyGems</li>
+<li>Ruby</li>
+<li>gcc / g++ / make</li>
+</ul>
+<p>각각의 설치 방법은 다음과 같다.</p>
+<pre><code># apt-get install -y nodejs
+# apt-get install -y rubygems
+# apt-get install -y ruby
+# apt-get install -y ruby-dev
+# apt-get install -y gcc
+# apt-get install -y g++
+# apt-get install -y make
+</code></pre><p>이제 <code>Jekyll</code>을 설치해야 한다. 만약 <code>gem install jekyll</code>을 하면 <code>jekyll 4.0.0</code>이 설치되는데, 이 경우 해결해야 할 오류가 너무 많다. 그래서 나는 그냥 <code>jekyll 3.8.5</code>를 설치했다.</p>
+<pre><code># gem install jekyll -v 3.8.5
+# gem install bundler
+</code></pre><p>여기까지 하면 모든 준비가 완료된다.</p>
+<p>이제 내 <code>Github</code>에서 내 블로그 <code>Repository</code>를 <code>Clone</code> 한다.</p>
+<pre><code># git clone https://github.com/mingzz1/mingzz1.github.io.git
+# cd mingzz1.github.io
+</code></pre><p><code>Clone</code>을 했으면 필요한 플러그인을 설치하고 <code>serve</code>를 해야 한다. (내 경우, <code>Gemfile</code>을 다 지워두었어서 원래 테마의 <code>Github page</code>에서 <code>Gemfile</code>과 <code>Gemfile.lock</code>를 가져왔다.)</p>
+<pre><code># bundle install
+</code></pre><p>만약 <code>bundle install</code>을 하는 동안 오류가 난다면, 해당 오류를 잘 읽어보면 된다.</p>
+<p>내 경우 아래와 같은 오류가 계속해서 발생했다.</p>
+<pre><code>jekyll-4.0.0 requires ruby version &gt;= 2.4.0, which is incompatible with the current version, ruby 2.3.1p112
+</code></pre><p>이 경우, <code>ruby</code> 버전을 2.4 이상을 설치하거나 <code>Gemfile</code> 혹은 <code>Gemfile.lock</code>에서 <code>jekyll</code> 버전을 낮추면 된다.</p>
+<p>이 후 만약 아래의 오류가 발생한다면 <code>bundle update jekyll</code>을 하면 된다.</p>
+<pre><code>Downloading jekyll-3.8.3 revealed dependencies not in the API or the lockfile (i18n (~&gt;
+0.7), jekyll-sass-converter (~&gt; 1.0), kramdown (~&gt; 1.14), rouge (&lt; 4, &gt;= 1.7)).
+Either installing with `--full-index` or running `bundle update jekyll` should fix the
+problem.
+</code></pre><p><code>bundle install</code>이 완료되었다면 이제 <code>serve</code>를 하면 된다.</p>
+<p><code>serve</code> 시, 나는 <code>Server version</code>의 <code>Ubuntu</code>를 사용했기 때문에, 호스트에서 접속해야 해서, 따로 호스팅 주소를 넣어 주었다.</p>
+<p>이 주소는 해당 가상머신 혹은 서버의 IP 주소를 넣어주면 된다.</p>
+<pre><code># bundle exec jekyll serve -H 192.168.222.144
+</code></pre><p>웹 브라우저로 <code>http://192.168.222.144:4000</code>에 접속하면 내 블로그가 떠 있는 것을 확인할 수 있다.</p>
+<p><img src="/images/development/blog/local_set/local_set_01.png" alt=""></p></section>
+    <footer>
+    <div class="tags">
+        
+        <a href="/tags#github-blog">#github-blog</a>
+        
+        <a href="/tags#jekyll">#jekyll</a>
+        
+    </div>
+</footer>
+</article>
+
+<div class="comments">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'mingzzis-blog';
+    (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+</div>
+
+<div id="post-nav">
+    <div id="previous-post" class="post-nav-post">
+        
+        <p>Previous post</p>
+        <a href="/development/github-blog/2020-06-16-jekyll-rougify_theme/">[Jekyll] Syntax Highlighting with rouge</a>
+        
+    </div>
+
+    <div id="next-post" class="post-nav-post">
+        
+        <p>Next post</p>
+        <a href="/ctf/2018/2018-07-29-ctf-isitdtu2018-iz/">[ISITDTU 2018] IZ Write up</a>
+        
+    </div>
+</div>
+
+
+    </div>
+    <ul class='social'>
+    
+    <li>
+        <a href="https://www.github.com/ATFutures" class="icon alt" target="_blank">
+            <i class="fa fa-github fa-2x"></i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="https://www.github.com/ATFutures" class="icon alt" target="_blank">
+            <i class="fa fa-instagram fa-2x"></i>
+        </a>
+    </li>
+    
+</ul>
+<footer class="site-footer">
+    <p ckass="text">Powered by <a href="https://mingzz1.github.io" target="_blank">mingzzi</a> with <a
+            href="https://myun-d.github.io/" target="_blank">myund</a></p>
+</footer>
+    <script id="dsq-count-scr" src="//mingzzis-blog.disqus.com/count.js" async></script>
+
+    
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-130304424-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    
+</body>
+</body>
+
+</html>

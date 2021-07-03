@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018 on mingzzi&#39;s blog</title>
+    <link>/subcategories/2018/</link>
+    <description>Recent content in 2018 on mingzzi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 05 May 2021 12:59:44 +0000</lastBuildDate>
+    
+	<atom:link href="/subcategories/2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[RCTF2018] rblog Write up</title>
+      <link>/ctf/2018/2021/05/05/ctf-rctf2018-rblog.html/</link>
+      <pubDate>Wed, 05 May 2021 12:59:44 +0000</pubDate>
+      
+      <guid>/ctf/2018/2021/05/05/ctf-rctf2018-rblog.html/</guid>
+      <description>&lt;p&gt;&lt;code&gt;rblog&lt;/code&gt;는 &lt;code&gt;RCTF 2018&lt;/code&gt;에 출제되었던 XSS 문제인데, 대회 기간에는 풀이하지 못했다가 Write-up이 올라온 후 풀어보게 되었다.&lt;/p&gt;
+&lt;p&gt;문제 정보는 아래와 같다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[35C3 CTF 2018] php Write up</title>
+      <link>/ctf/2018/2018/12/30/ctf-35c3ctf2018-php.html/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ctf/2018/2018/12/30/ctf-35c3ctf2018-php.html/</guid>
+      <description>&lt;p&gt;어제 ctftime을 돌아보다가 &lt;code&gt;35C3 CTF&lt;/code&gt;가 하고 있길래 한 문제를 풀어보았다.&lt;/p&gt;
+&lt;p&gt;원래 몇개 더 풀어보고 싶었는데 어떻게 푸는건지를 모르겠다.&lt;/p&gt;
+&lt;p&gt;아직 Write up이 안올라왔던데, 나중에 올라오면 찾아봐야겠다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[TenDollar 2018] Ping! Ping! Ping! Write up</title>
+      <link>/ctf/2018/2018/12/16/ctf-tendollar2018-ping-ping-ping.html/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ctf/2018/2018/12/16/ctf-tendollar2018-ping-ping-ping.html/</guid>
+      <description>&lt;p&gt;몇 주 전에 TenDollar 팀이 주최 한 CTF에 참여했다.&lt;/p&gt;
+&lt;p&gt;한 3문제 정도 푼 것 같은데, 그 중에 &lt;code&gt;Ping! Ping! Ping!&lt;/code&gt; 문제는 지금도 풀어볼 수 있어 이 문제에 대한 풀이를 적어두려 한다.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[RCTF2018] amp Write up</title>
+      <link>/ctf/2018/2018/05/23/ctf-rctf2018-amp.html/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ctf/2018/2018/05/23/ctf-rctf2018-amp.html/</guid>
+      <description>&lt;p&gt;2018년 5월 19일부터 5월 21일까지 RCTF가 있었다.&lt;/p&gt;
+&lt;p&gt;비록 대회 도중에는 문제를 못풀었지만, 대회 종료 후 amp 문제를 풀게되어 Write-up을 작성하게 되었다.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
