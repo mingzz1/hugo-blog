@@ -16,10 +16,9 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 
     
-    <link rel="stylesheet" href="/sass/main.min.8ca5191b462e3d74a37471fc57f4db16bfc0e0793671b203652f413c2eada44c.css">
+    <link rel="stylesheet" href="/sass/main.min.26eb1acd477bb104720ba3121a7b7ad8a79d6dddd17e8f9ad34755abcb48ecf2.css">
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
 
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,7 +26,6 @@
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-
 
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304424-1"></script>
@@ -233,7 +231,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">create</span> <span style="color:#ff79c6">database</span> DB_NAME
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">create</span> <span style="color:#ff79c6">database</span> DB_NAME
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -244,7 +242,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">create</span> <span style="color:#ff79c6">table</span> DB_NAME.<span style="color:#ff79c6">TABLE_NAME</span>(COL_1 <span style="color:#8be9fd;font-style:italic">char</span>(<span style="color:#bd93f9">30</span>) <span style="color:#ff79c6">not</span> <span style="color:#ff79c6">null</span>, COL_2 <span style="color:#8be9fd;font-style:italic">varchar</span>(<span style="color:#bd93f9">100</span>) <span style="color:#ff79c6">not</span> <span style="color:#ff79c6">null</span>);
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">create</span> <span style="color:#ff79c6">table</span> DB_NAME.<span style="color:#50fa7b">TABLE_NAME</span>(COL_1 <span style="color:#8be9fd">char</span>(<span style="color:#bd93f9">30</span>) <span style="color:#ff79c6">not</span> null, COL_2 <span style="color:#8be9fd">varchar</span>(<span style="color:#bd93f9">100</span>) <span style="color:#ff79c6">not</span> null);
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -255,7 +253,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">insert</span> <span style="color:#ff79c6">into</span> DB_NAME.<span style="color:#ff79c6">TABLE_NAME</span>(COL_1, COL_2, ...) <span style="color:#ff79c6">values</span>(<span style="color:#f1fa8c">&#39;VAL1_1&#39;</span>, <span style="color:#f1fa8c">&#39;VAL1_2&#39;</span>, <span style="color:#f1fa8c">&#39;...&#39;</span>), (<span style="color:#f1fa8c">&#39;VAL1_1&#39;</span>, <span style="color:#f1fa8c">&#39;VAL1_2&#39;</span>, <span style="color:#f1fa8c">&#39;...&#39;</span>), (...);
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">insert</span> <span style="color:#ff79c6">into</span> DB_NAME.<span style="color:#50fa7b">TABLE_NAME</span>(COL_1, COL_2, ...) <span style="color:#ff79c6">values</span>(<span style="color:#f1fa8c">&#39;VAL1_1&#39;</span>, <span style="color:#f1fa8c">&#39;VAL1_2&#39;</span>, <span style="color:#f1fa8c">&#39;...&#39;</span>), (<span style="color:#f1fa8c">&#39;VAL1_1&#39;</span>, <span style="color:#f1fa8c">&#39;VAL1_2&#39;</span>, <span style="color:#f1fa8c">&#39;...&#39;</span>), (...);
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -266,7 +264,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> DB_NAME.<span style="color:#ff79c6">TABLE_NAME</span> <span style="color:#ff79c6">where</span> CONDITION;
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> DB_NAME.TABLE_NAME <span style="color:#ff79c6">where</span> <span style="color:#ff79c6">CONDITION</span>;
 </code></pre></td></tr></table>
 </div>
 </div><hr>
@@ -279,7 +277,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> <span style="color:#ff79c6">table</span> <span style="color:#ff79c6">where</span> col<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;CONDITION&#39;</span>;
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> <span style="color:#ff79c6">table</span> <span style="color:#ff79c6">where</span> col<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;CONDITION&#39;</span>;
 </code></pre></td></tr></table>
 </div>
 </div><p>이 때, &lsquo;CONDITION'은 대소문자를 구분하기 때문에 <code>col='condition'</code>과 <code>col='CONDITION'</code>은 다른 결과를 얻는다.</p>
@@ -291,7 +289,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">list <span style="color:#ff79c6">database</span> directory
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql">list <span style="color:#ff79c6">database</span> directory
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -302,7 +300,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> sysibm.systables;
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> sysibm.systables;
 </code></pre></td></tr></table>
 </div>
 </div><p>이 때, <code>name</code> 컬럼은 <code>테이블 명</code>, <code>creator</code> 컬럼은 <code>데이터베이스 명</code>이다. 따라서 아래와 같이 사용하면 특정 데이터베이스 내의 테이블 명만 추출할 수 있다.</p>
@@ -311,7 +309,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">select</span> name <span style="color:#ff79c6">from</span> sysibm.systables <span style="color:#ff79c6">where</span> creator<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;DB_NAME&#39;</span>;
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">select</span> name <span style="color:#ff79c6">from</span> sysibm.systables <span style="color:#ff79c6">where</span> creator<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;DB_NAME&#39;</span>;
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -322,7 +320,7 @@ $ db2
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> <span style="color:#ff79c6">TABLE_NAME</span> <span style="color:#ff79c6">fetch</span> <span style="color:#ff79c6">first</span> NUM <span style="color:#ff79c6">rows</span> <span style="color:#ff79c6">only</span>;
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#ff79c6">select</span> <span style="color:#ff79c6">*</span> <span style="color:#ff79c6">from</span> TABLE_NAME <span style="color:#ff79c6">fetch</span> first NUM rows only;
 </code></pre></td></tr></table>
 </div>
 </div><p>이렇게 하면 각 테이블의 <code>첫 행부터 NUM개의 행</code>을 select 한다. 만약 <code>마지막 행부터 특정 개수의 행을 추출</code>하고 싶다면, 특정 column을 기준으로 <code>order by desc</code>한 후 <code>fetch first NUM rows only</code>를 사용해야 한다.<br>

@@ -6,19 +6,20 @@
     <description>Recent content in hackover2018 on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hackover2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[hackover 2018] i-love-heddha Write up</title>
-      <link>/ctf/2018/1/01/01/2018-10-07-ctf-hackover2018-i-love-heddha.html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/ctf/2018/2018/10/07/ctf-hackover2018-i-love-heddha.html/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/1/01/01/2018-10-07-ctf-hackover2018-i-love-heddha.html/</guid>
-      <description>&lt;p&gt;주말에 잠시잠깐 짬을 내서 &lt;code&gt;hackover&lt;/code&gt;라는 &lt;code&gt;CTF&lt;/code&gt;에 참가했다.&lt;/p&gt;
-&lt;p&gt;그 중에 하나를 풀긴 했는데&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Write-up&lt;/code&gt;을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어서 올린다. ㅎㅎ&lt;/p&gt;</description>
+      <guid>/ctf/2018/2018/10/07/ctf-hackover2018-i-love-heddha.html/</guid>
+      <description>&lt;p&gt;주말에 잠시잠깐 짬을 내서 &lt;code&gt;hackover&lt;/code&gt;라는 CTF에 참가했다.
+그 중에 하나를 풀긴 했는데&amp;hellip;
+Write-up을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어서 올린다. ㅎㅎ&lt;/p&gt;</description>
     </item>
     
   </channel>

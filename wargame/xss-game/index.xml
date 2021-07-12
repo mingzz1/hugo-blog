@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mingzzi&#39;s blog</title>
+    <title>Wargame/XSS Game on mingzzi&#39;s blog</title>
     <link>/wargame/xss-game/</link>
-    <description>Recent content on mingzzi&#39;s blog</description>
+    <description>Recent content in Wargame/XSS Game on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>

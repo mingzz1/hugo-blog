@@ -6,19 +6,10 @@
     <description>Recent content in Subcategories on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 05 May 2021 12:59:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/subcategories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>2018</title>
-      <link>/subcategories/2018/</link>
-      <pubDate>Wed, 05 May 2021 12:59:44 +0000</pubDate>
-      
-      <guid>/subcategories/2018/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>mobile</title>
@@ -44,6 +35,15 @@
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>/subcategories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OWASP</title>
+      <link>/subcategories/owasp/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/subcategories/owasp/</guid>
       <description></description>
     </item>
     
@@ -134,6 +134,42 @@
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/subcategories/2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lord-of-sql-injection</title>
+      <link>/subcategories/lord-of-sql-injection/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/subcategories/lord-of-sql-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pwnable.kr</title>
+      <link>/subcategories/pwnable.kr/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/subcategories/pwnable.kr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wargame.kr</title>
+      <link>/subcategories/wargame.kr/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/subcategories/wargame.kr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2018</title>
+      <link>/subcategories/2018/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/subcategories/2018/</guid>
       <description></description>
     </item>
     

