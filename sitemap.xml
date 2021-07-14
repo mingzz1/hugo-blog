@@ -4,8 +4,53 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/development/github-blog/2021/07/12/jekyll-to-hugo-rebuild-1.html/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/development/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/development/github-blog/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/Github/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/Github-Blog/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/subcategories/github-blog/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/Hugo/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/subcategories/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,12 +59,7 @@
   </url>
   
   <url>
-    <loc>/tags/development/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/development/</loc>
+    <loc>/tags/Development/</loc>
     <lastmod>2021-04-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,17 +74,7 @@
   </url>
   
   <url>
-    <loc>/tags/react-native/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/subcategories/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>/tags/React-Native/</loc>
     <lastmod>2021-04-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -64,12 +94,7 @@
   </url>
   
   <url>
-    <loc>/tags/github/</loc>
-    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/jenkins/</loc>
+    <loc>/tags/Jenkins/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -84,12 +109,12 @@
   </url>
   
   <url>
-    <loc>/pentesting/ios/2021/02/01/ios-install_mitmproxy.html/</loc>
+    <loc>/pentesting/ios/2021/02/01/iOS-install_mitmproxy.html/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ios/</loc>
+    <loc>/tags/iOS/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,7 +124,7 @@
   </url>
   
   <url>
-    <loc>/tags/pentesting/</loc>
+    <loc>/tags/Pentesting/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -119,12 +144,12 @@
   </url>
   
   <url>
-    <loc>/subcategories/owasp/</loc>
+    <loc>/subcategories/OWASP/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/owasp-mstg/</loc>
+    <loc>/tags/OWASP-MSTG/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -139,7 +164,7 @@
   </url>
   
   <url>
-    <loc>/tags/write-up/</loc>
+    <loc>/tags/Write-up/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,7 +179,7 @@
   </url>
   
   <url>
-    <loc>/tags/android/</loc>
+    <loc>/tags/Android/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -164,7 +189,7 @@
   </url>
   
   <url>
-    <loc>/tags/frida/</loc>
+    <loc>/tags/Frida/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -179,7 +204,7 @@
   </url>
   
   <url>
-    <loc>/tags/error/</loc>
+    <loc>/tags/Error/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -194,12 +219,12 @@
   </url>
   
   <url>
-    <loc>/tags/vmware/</loc>
+    <loc>/tags/VMware/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/windows/</loc>
+    <loc>/tags/Windows/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -209,7 +234,7 @@
   </url>
   
   <url>
-    <loc>/tags/xshell/</loc>
+    <loc>/tags/Xshell/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -219,7 +244,7 @@
   </url>
   
   <url>
-    <loc>/pentesting/ios/2020/06/25/ios-reset-from-jailbreak.html/</loc>
+    <loc>/pentesting/ios/2020/06/25/iOS-reset-from-jailbreak.html/</loc>
     <lastmod>2020-06-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -229,37 +254,22 @@
   </url>
   
   <url>
-    <loc>/development/github-blog/</loc>
+    <loc>/tags/Jekyll/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/github-blog/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/subcategories/github-blog/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/jekyll/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/error/windows/2020/06/10/burpsuite_jni_error.html/</loc>
+    <loc>/error/windows/2020/06/10/BurpSuite_JNI_error.html/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/burpsuite/</loc>
+    <loc>/tags/BurpSuite/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pentesting/android/2020/06/08/setting-burp-suite-for-android.html/</loc>
+    <loc>/pentesting/android/2020/06/08/Setting-Burp-Suite-for-Android.html/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -279,7 +289,7 @@
   </url>
   
   <url>
-    <loc>/tags/cloud/</loc>
+    <loc>/tags/Cloud/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -299,12 +309,12 @@
   </url>
   
   <url>
-    <loc>/tags/security/</loc>
+    <loc>/tags/Security/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/web/</loc>
+    <loc>/tags/Web/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -324,7 +334,7 @@
   </url>
   
   <url>
-    <loc>/tags/secure-coding/</loc>
+    <loc>/tags/Secure-Coding/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -354,22 +364,22 @@
   </url>
   
   <url>
-    <loc>/tags/spring/</loc>
+    <loc>/tags/Spring/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/web-development/</loc>
+    <loc>/tags/Web-Development/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pentesting/web/2020/02/04/web-httponly_cookie.html/</loc>
+    <loc>/pentesting/web/2020/02/04/Web-httponly_cookie.html/</loc>
     <lastmod>2020-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/error/python/2020/01/20/error-pip_install.html/</loc>
+    <loc>/error/python/2020/01/20/Error-pip_install.html/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -379,7 +389,7 @@
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/tags/Python/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -399,7 +409,7 @@
   </url>
   
   <url>
-    <loc>/tags/docker/</loc>
+    <loc>/tags/Docker/</loc>
     <lastmod>2020-01-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -414,7 +424,7 @@
   </url>
   
   <url>
-    <loc>/tags/database/</loc>
+    <loc>/tags/Database/</loc>
     <lastmod>2020-01-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -424,7 +434,7 @@
   </url>
   
   <url>
-    <loc>/tags/db2/</loc>
+    <loc>/tags/DB2/</loc>
     <lastmod>2020-01-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -449,12 +459,12 @@
   </url>
   
   <url>
-    <loc>/pentesting/ios/2020/01/02/ios-ssh_ftp.html/</loc>
+    <loc>/pentesting/ios/2020/01/02/iOS-ssh_ftp.html/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pentesting/ios/2020/01/02/ios-app_decrypt.html/</loc>
+    <loc>/pentesting/ios/2020/01/02/iOS-app_decrypt.html/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -464,17 +474,17 @@
   </url>
   
   <url>
-    <loc>/pentesting/ios/2019/12/10/ios-jailbreak.html/</loc>
+    <loc>/pentesting/ios/2019/12/10/iOS-jailbreak.html/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pentesting/ios/2019/12/10/ios-setting.html/</loc>
+    <loc>/pentesting/ios/2019/12/10/iOS-setting.html/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pentesting/ios/2019/12/10/ios-initialize.html/</loc>
+    <loc>/pentesting/ios/2019/12/10/iOS-initialize.html/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -494,12 +504,12 @@
   </url>
   
   <url>
-    <loc>/tags/cce2019/</loc>
+    <loc>/tags/CCE2019/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ctf/</loc>
+    <loc>/tags/CTF/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -514,7 +524,7 @@
   </url>
   
   <url>
-    <loc>/tags/poxx2019/</loc>
+    <loc>/tags/POXX2019/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -524,7 +534,7 @@
   </url>
   
   <url>
-    <loc>/tags/lord-of-sql-injection/</loc>
+    <loc>/tags/Lord-of-SQL-Injection/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -619,12 +629,12 @@
   </url>
   
   <url>
-    <loc>/tags/defcon2019/</loc>
+    <loc>/tags/Defcon2019/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pentesting/android/2019/04/21/android-analysis_1.html/</loc>
+    <loc>/pentesting/android/2019/04/21/Android-Analysis_1.html/</loc>
     <lastmod>2019-04-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -634,7 +644,7 @@
   </url>
   
   <url>
-    <loc>/tags/volgactf2019/</loc>
+    <loc>/tags/VolgaCTF2019/</loc>
     <lastmod>2019-04-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -649,22 +659,22 @@
   </url>
   
   <url>
-    <loc>/tags/code-server/</loc>
+    <loc>/tags/Code-Server/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/javascript/</loc>
+    <loc>/tags/Javascript/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/obfuscation/</loc>
+    <loc>/tags/Obfuscation/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/vscode/</loc>
+    <loc>/tags/VSCode/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -674,7 +684,7 @@
   </url>
   
   <url>
-    <loc>/tags/pwnable.kr/</loc>
+    <loc>/tags/Pwnable.kr/</loc>
     <lastmod>2019-02-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -704,12 +714,12 @@
   </url>
   
   <url>
-    <loc>/wargame/wargame.kr/2019/02/08/wargame.kr-db_is_really_good.html/</loc>
+    <loc>/wargame/wargame.kr/2019/02/08/wargame.kr-DB_is_really_GOOD.html/</loc>
     <lastmod>2019-02-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/wargame.kr/</loc>
+    <loc>/tags/Wargame.kr/</loc>
     <lastmod>2019-02-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -739,7 +749,7 @@
   </url>
   
   <url>
-    <loc>/tags/35c3ctf2018/</loc>
+    <loc>/tags/35C3CTF2018/</loc>
     <lastmod>2018-12-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -759,17 +769,17 @@
   </url>
   
   <url>
-    <loc>/tags/tendollar2018/</loc>
+    <loc>/tags/TenDollar2018/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/ctf/2018/2018/11/19/ctf-ritsec2018-what-a-cute-dog.html/</loc>
+    <loc>/ctf/2018/2018/11/19/ctf-ritsec2018-What-a-cute-dog.html/</loc>
     <lastmod>2018-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ritsec2018/</loc>
+    <loc>/tags/RITSEC2018/</loc>
     <lastmod>2018-11-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -784,7 +794,7 @@
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
+    <loc>/tags/Linux/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -799,7 +809,7 @@
   </url>
   
   <url>
-    <loc>/tags/poxx2018/</loc>
+    <loc>/tags/POXX2018/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -814,7 +824,7 @@
   </url>
   
   <url>
-    <loc>/wargame/wargame.kr/2018/10/24/wargame.kr-wtf_code.html/</loc>
+    <loc>/wargame/wargame.kr/2018/10/24/wargame.kr-WTF_CODE.html/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -824,7 +834,7 @@
   </url>
   
   <url>
-    <loc>/wargame/wargame.kr/2018/10/17/wargame.kr-qr_code_puzzle.html/</loc>
+    <loc>/wargame/wargame.kr/2018/10/17/wargame.kr-QR_CODE_PUZZLE.html/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -854,7 +864,7 @@
   </url>
   
   <url>
-    <loc>/tags/chrome-headless/</loc>
+    <loc>/tags/Chrome-Headless/</loc>
     <lastmod>2018-09-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -979,7 +989,7 @@
   </url>
   
   <url>
-    <loc>/tags/isitdtu2018/</loc>
+    <loc>/tags/ISITDTU2018/</loc>
     <lastmod>2018-07-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -1049,7 +1059,7 @@
   </url>
   
   <url>
-    <loc>/tags/meepwn2018/</loc>
+    <loc>/tags/MeePwn2018/</loc>
     <lastmod>2018-07-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -1069,7 +1079,7 @@
   </url>
   
   <url>
-    <loc>/tags/xss-game/</loc>
+    <loc>/tags/XSS-Game/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -1094,7 +1104,7 @@
   </url>
   
   <url>
-    <loc>/tags/rctf2018/</loc>
+    <loc>/tags/RCTF2018/</loc>
     <lastmod>2018-05-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -1134,7 +1144,7 @@
   </url>
   
   <url>
-    <loc>/tags/system/</loc>
+    <loc>/tags/System/</loc>
     <lastmod>2018-02-15T00:00:00+00:00</lastmod>
   </url>
   

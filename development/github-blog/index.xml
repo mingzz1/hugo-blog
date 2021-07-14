@@ -6,10 +6,22 @@
     <description>Recent content in Development/Github Blog on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/development/github-blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Hugo] Jekyll to Hugo 블로그 이전기</title>
+      <link>/development/github-blog/2021/07/12/jekyll-to-hugo-rebuild-1.html/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/development/github-blog/2021/07/12/jekyll-to-hugo-rebuild-1.html/</guid>
+      <description>&lt;p&gt;이 전에도 여러 번 거론했다시피, 내 블로그는 원래 &lt;code&gt;Jekyll&lt;/code&gt;로 만들었다.
+그런데 블로그를 개설한지 어언 3년&amp;hellip;
+글이 점점 많이지다보니 새로운 포스팅을 썼을 때와, 디자인을 변경했을 때 커밋 후 블로그에 실제로 반영될때까지 속도가 너무 느렸다.
+그래서 고민하다가 블로그를 대대적으로 리뉴얼 하면서 &lt;code&gt;Hugo&lt;/code&gt;로 이전까지 하게 되었다.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Jekyll] Syntax Highlighting with rouge</title>

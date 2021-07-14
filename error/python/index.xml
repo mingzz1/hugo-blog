@@ -13,10 +13,10 @@
     
     <item>
       <title>[Python 오류] command errored out with exit status 1 python setup.py egg_info 오류</title>
-      <link>/error/python/2020/01/20/error-pip_install.html/</link>
+      <link>/error/python/2020/01/20/Error-pip_install.html/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/error/python/2020/01/20/error-pip_install.html/</guid>
+      <guid>/error/python/2020/01/20/Error-pip_install.html/</guid>
       <description>&lt;p&gt;Linux 서버에서 pip install로 Python 모듈을 설치하려고 하니까 계속 오류가 났다. 오류 해결 방법은 다음과 같다.&lt;/p&gt;</description>
     </item>
     

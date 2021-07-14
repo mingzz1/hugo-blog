@@ -45,10 +45,10 @@ Error 페이지에서 출력되는 버전 정보를 숨기는 방법은 아래�
     
     <item>
       <title>[Web] Secure 및 HttpOnly 쿠키 옵션</title>
-      <link>/pentesting/web/2020/02/04/web-httponly_cookie.html/</link>
+      <link>/pentesting/web/2020/02/04/Web-httponly_cookie.html/</link>
       <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/pentesting/web/2020/02/04/web-httponly_cookie.html/</guid>
+      <guid>/pentesting/web/2020/02/04/Web-httponly_cookie.html/</guid>
       <description>&lt;p&gt;XSS는 수 년간 &lt;code&gt;OWASP Top 10&lt;/code&gt;에서 사라지지 않는 취약점 중 하나이다.
 XSS의 주된 공격 타겟은 바로 &lt;code&gt;Session Cookies 탈취&lt;/code&gt;라고 한다.
 그래서 오늘은 이에 대응할 수 있는 &lt;code&gt;Secure&lt;/code&gt; 와 &lt;code&gt;HttpOnly&lt;/code&gt; 옵션에 대해 정리하려 한다.&lt;/p&gt;</description>
