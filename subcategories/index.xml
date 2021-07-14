@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subcategories on mingzzi&#39;s blog</title>
-    <link>/subcategories/</link>
+    <link>https://mingzz1.github.io/subcategories/</link>
     <description>Recent content in Subcategories on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/subcategories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingzz1.github.io/subcategories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>github-blog</title>
-      <link>/subcategories/github-blog/</link>
+      <link>https://mingzz1.github.io/subcategories/github-blog/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/github-blog/</guid>
+      <guid>https://mingzz1.github.io/subcategories/github-blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mobile</title>
-      <link>/subcategories/mobile/</link>
+      <link>https://mingzz1.github.io/subcategories/mobile/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/mobile/</guid>
+      <guid>https://mingzz1.github.io/subcategories/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>basic</title>
-      <link>/subcategories/basic/</link>
+      <link>https://mingzz1.github.io/subcategories/basic/</link>
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/basic/</guid>
+      <guid>https://mingzz1.github.io/subcategories/basic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ios</title>
-      <link>/subcategories/ios/</link>
+      <link>https://mingzz1.github.io/subcategories/ios/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/ios/</guid>
+      <guid>https://mingzz1.github.io/subcategories/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OWASP</title>
-      <link>/subcategories/OWASP/</link>
+      <link>https://mingzz1.github.io/subcategories/OWASP/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/OWASP/</guid>
+      <guid>https://mingzz1.github.io/subcategories/OWASP/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>/subcategories/android/</link>
+      <link>https://mingzz1.github.io/subcategories/android/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/android/</guid>
+      <guid>https://mingzz1.github.io/subcategories/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>/subcategories/windows/</link>
+      <link>https://mingzz1.github.io/subcategories/windows/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/windows/</guid>
+      <guid>https://mingzz1.github.io/subcategories/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>/subcategories/cloud/</link>
+      <link>https://mingzz1.github.io/subcategories/cloud/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/cloud/</guid>
+      <guid>https://mingzz1.github.io/subcategories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>/subcategories/web/</link>
+      <link>https://mingzz1.github.io/subcategories/web/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/web/</guid>
+      <guid>https://mingzz1.github.io/subcategories/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>secure-coding</title>
-      <link>/subcategories/secure-coding/</link>
+      <link>https://mingzz1.github.io/subcategories/secure-coding/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/secure-coding/</guid>
+      <guid>https://mingzz1.github.io/subcategories/secure-coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>/subcategories/python/</link>
+      <link>https://mingzz1.github.io/subcategories/python/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/python/</guid>
+      <guid>https://mingzz1.github.io/subcategories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>/subcategories/docker/</link>
+      <link>https://mingzz1.github.io/subcategories/docker/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/docker/</guid>
+      <guid>https://mingzz1.github.io/subcategories/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database</title>
-      <link>/subcategories/database/</link>
+      <link>https://mingzz1.github.io/subcategories/database/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/database/</guid>
+      <guid>https://mingzz1.github.io/subcategories/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2019</title>
-      <link>/subcategories/2019/</link>
+      <link>https://mingzz1.github.io/subcategories/2019/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/2019/</guid>
+      <guid>https://mingzz1.github.io/subcategories/2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lord-of-sql-injection</title>
-      <link>/subcategories/lord-of-sql-injection/</link>
+      <link>https://mingzz1.github.io/subcategories/lord-of-sql-injection/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/lord-of-sql-injection/</guid>
+      <guid>https://mingzz1.github.io/subcategories/lord-of-sql-injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pwnable.kr</title>
-      <link>/subcategories/pwnable.kr/</link>
+      <link>https://mingzz1.github.io/subcategories/pwnable.kr/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/pwnable.kr/</guid>
+      <guid>https://mingzz1.github.io/subcategories/pwnable.kr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wargame.kr</title>
-      <link>/subcategories/wargame.kr/</link>
+      <link>https://mingzz1.github.io/subcategories/wargame.kr/</link>
       <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/wargame.kr/</guid>
+      <guid>https://mingzz1.github.io/subcategories/wargame.kr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2018</title>
-      <link>/subcategories/2018/</link>
+      <link>https://mingzz1.github.io/subcategories/2018/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/2018/</guid>
+      <guid>https://mingzz1.github.io/subcategories/2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/subcategories/linux/</link>
+      <link>https://mingzz1.github.io/subcategories/linux/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/linux/</guid>
+      <guid>https://mingzz1.github.io/subcategories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xss-game</title>
-      <link>/subcategories/xss-game/</link>
+      <link>https://mingzz1.github.io/subcategories/xss-game/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/subcategories/xss-game/</guid>
+      <guid>https://mingzz1.github.io/subcategories/xss-game/</guid>
       <description></description>
     </item>
     

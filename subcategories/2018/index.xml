@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 on mingzzi&#39;s blog</title>
-    <link>/subcategories/2018/</link>
+    <link>https://mingzz1.github.io/subcategories/2018/</link>
     <description>Recent content in 2018 on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/subcategories/2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingzz1.github.io/subcategories/2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[35C3 CTF 2018] php Write up</title>
-      <link>/ctf/2018/2018/12/30/ctf-35c3ctf2018-php.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/12/30/ctf-35c3ctf2018-php.html/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/12/30/ctf-35c3ctf2018-php.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/12/30/ctf-35c3ctf2018-php.html/</guid>
       <description>&lt;p&gt;어제 ctftime을 돌아보다가 &lt;code&gt;35C3 CTF&lt;/code&gt;가 하고 있길래 한 문제를 풀어보았다.
 원래 몇개 더 풀어보고 싶었는데 어떻게 푸는건지를 모르겠다.
 아직 Write up이 안올라왔던데, 나중에 올라오면 찾아봐야겠다.&lt;/p&gt;</description>
@@ -24,40 +24,40 @@
     
     <item>
       <title>[TenDollar 2018] Ping! Ping! Ping! Write up</title>
-      <link>/ctf/2018/2018/12/16/ctf-tendollar2018-ping-ping-ping.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/12/16/ctf-tendollar2018-ping-ping-ping.html/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/12/16/ctf-tendollar2018-ping-ping-ping.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/12/16/ctf-tendollar2018-ping-ping-ping.html/</guid>
       <description>&lt;p&gt;몇 주 전에 TenDollar 팀이 주최 한 CTF에 참여했다.
 한 3문제 정도 푼 것 같은데, 그 중에 &lt;code&gt;Ping! Ping! Ping!&lt;/code&gt; 문제는 지금도 풀어볼 수 있어 이 문제에 대한 풀이를 적어두려 한다.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[RITSEC 2018] What a cute dog! Write up</title>
-      <link>/ctf/2018/2018/11/19/ctf-ritsec2018-What-a-cute-dog.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/11/19/ctf-ritsec2018-What-a-cute-dog.html/</link>
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/11/19/ctf-ritsec2018-What-a-cute-dog.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/11/19/ctf-ritsec2018-What-a-cute-dog.html/</guid>
       <description>&lt;p&gt;주말에 잠깐 짬이 나서 RITSEC CTF에 참여했다.
 웹 몇개랑 암호 한개 정도 풀었는데 그 중에 한 문제에 대한 Write Up을 써 두려고 한다.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[POXX2018-Final] Groot / 2&#43;3 / WHATISTHIS Write up</title>
-      <link>/ctf/2018/2018/11/15/ctf-poxx2018-writeup.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/11/15/ctf-poxx2018-writeup.html/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/11/15/ctf-poxx2018-writeup.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/11/15/ctf-poxx2018-writeup.html/</guid>
       <description>&lt;p&gt;이번에 매우 운이 좋게도 &lt;code&gt;2018 POXX 본선&lt;/code&gt;에 참가할 수 있었다.
 본선에서 총 4문제를 풀었는데, 그 중 3문제에 대해서 Write-up을 작성하려 한다.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[hackover 2018] i-love-heddha Write up</title>
-      <link>/ctf/2018/2018/10/07/ctf-hackover2018-i-love-heddha.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/10/07/ctf-hackover2018-i-love-heddha.html/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/10/07/ctf-hackover2018-i-love-heddha.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/10/07/ctf-hackover2018-i-love-heddha.html/</guid>
       <description>&lt;p&gt;주말에 잠시잠깐 짬을 내서 &lt;code&gt;hackover&lt;/code&gt;라는 CTF에 참가했다.
 그 중에 하나를 풀긴 했는데&amp;hellip;
 Write-up을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어서 올린다. ㅎㅎ&lt;/p&gt;</description>
@@ -65,10 +65,10 @@ Write-up을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어�
     
     <item>
       <title>[ISITDTU 2018] Friss Write up</title>
-      <link>/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</guid>
       <description>&lt;p&gt;갑자기 CTF가 많으니까 풀어볼 문제가 많아졌다.
 근데 다른사람이 작성한 Write-up 보고 문제를 보고 풀면 문제가 진짜 풀리고 배우는 점도 많아서 신난다.&lt;br&gt;
 &lt;del&gt;근데 또 새로운 문제 나오면 못풀겠지&amp;hellip; 공부의 끝은 어디인가&amp;hellip;&lt;/del&gt;
@@ -77,10 +77,10 @@ Write-up을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어�
     
     <item>
       <title>[ISITDTU 2018] IZ Write up</title>
-      <link>/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</guid>
       <description>&lt;p&gt;이번 주말에 CTF 천국이었다.
 무려 3개가 비슷한 시기에 있었다.
 사실 &lt;code&gt;ISITDTU CTF&lt;/code&gt;는 대회 시간에 참여를 못했는데, &lt;code&gt;CODEBLUE CTF&lt;/code&gt; 문제를 보다보니 멘탈이 날아가서 이미 끝난 대회 문제를 다시 봤다.
@@ -90,10 +90,10 @@ Write-up을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어�
     
     <item>
       <title>[MeePwn2018] OMEGASECTOR Write up</title>
-      <link>/ctf/2018/2018/07/18/ctf-meepwn2018-omegasector.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/07/18/ctf-meepwn2018-omegasector.html/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/07/18/ctf-meepwn2018-omegasector.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/07/18/ctf-meepwn2018-omegasector.html/</guid>
       <description>&lt;p&gt;OMEGASECTOR 문제는 가장 오랜 시간 &lt;del&gt;그렇다고 해도 길진 않았지만&lt;/del&gt; 고민했던 문제이다.
 역시나 대회 기간에는 풀지 못했다(ㅠㅠ).
 풀이를 보며 &lt;code&gt;아 왜 난 이 생각을 못했었지!&lt;/code&gt; 한 점이 많아서 Write up을 작성 해 본다.&lt;/p&gt;</description>
@@ -101,30 +101,30 @@ Write-up을 쓸까말까 고민 하다가 요즘 포스팅이 너무 뜸했어�
     
     <item>
       <title>[MeePwn2018] WHITE SNOW, BLACK SHADOW / ESOR / EZCHALLZ Write up</title>
-      <link>/ctf/2018/2018/07/17/meepwn2018-writeup.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/07/17/meepwn2018-writeup.html/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/07/17/meepwn2018-writeup.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/07/17/meepwn2018-writeup.html/</guid>
       <description>&lt;p&gt;지난 주말에 &lt;code&gt;MeePwn CTF&lt;/code&gt;가 있었다.
 다른 일이 있어 풀타임으로 참여하진 못했는데, 그래도 쉬운 몇 문제를 풀어 Write-up을 작성 해 보았다.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[RCTF2018] rblog Write up</title>
-      <link>/ctf/2018/2018/05/27/ctf-rctf2018-rblog.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/05/27/ctf-rctf2018-rblog.html/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/05/27/ctf-rctf2018-rblog.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/05/27/ctf-rctf2018-rblog.html/</guid>
       <description>&lt;p&gt;&lt;code&gt;rblog&lt;/code&gt;는 &lt;code&gt;RCTF 2018&lt;/code&gt;에 출제되었던 XSS 문제인데, 대회 기간에는 풀이하지 못했다가 Write-up이 올라온 후 풀어보게 되었다.
 문제 정보는 아래와 같다.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[RCTF2018] amp Write up</title>
-      <link>/ctf/2018/2018/05/23/ctf-rctf2018-amp.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/05/23/ctf-rctf2018-amp.html/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/05/23/ctf-rctf2018-amp.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/05/23/ctf-rctf2018-amp.html/</guid>
       <description>&lt;p&gt;2018년 5월 19일부터 5월 21일까지 RCTF가 있었다.
 비록 대회 도중에는 문제를 못풀었지만, 대회 종료 후 amp 문제를 풀게되어 Write-up을 작성하게 되었다.&lt;/p&gt;</description>
     </item>

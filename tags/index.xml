@@ -2,489 +2,489 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on mingzzi&#39;s blog</title>
-    <link>/tags/</link>
+    <link>https://mingzz1.github.io/tags/</link>
     <description>Recent content in Tags on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingzz1.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github</title>
-      <link>/tags/Github/</link>
+      <link>https://mingzz1.github.io/tags/Github/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Github/</guid>
+      <guid>https://mingzz1.github.io/tags/Github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github Blog</title>
-      <link>/tags/Github-Blog/</link>
+      <link>https://mingzz1.github.io/tags/Github-Blog/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Github-Blog/</guid>
+      <guid>https://mingzz1.github.io/tags/Github-Blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/Hugo/</link>
+      <link>https://mingzz1.github.io/tags/Hugo/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Hugo/</guid>
+      <guid>https://mingzz1.github.io/tags/Hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>/tags/Development/</link>
+      <link>https://mingzz1.github.io/tags/Development/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Development/</guid>
+      <guid>https://mingzz1.github.io/tags/Development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React-Native</title>
-      <link>/tags/React-Native/</link>
+      <link>https://mingzz1.github.io/tags/React-Native/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/React-Native/</guid>
+      <guid>https://mingzz1.github.io/tags/React-Native/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jenkins</title>
-      <link>/tags/Jenkins/</link>
+      <link>https://mingzz1.github.io/tags/Jenkins/</link>
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Jenkins/</guid>
+      <guid>https://mingzz1.github.io/tags/Jenkins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iOS</title>
-      <link>/tags/iOS/</link>
+      <link>https://mingzz1.github.io/tags/iOS/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/iOS/</guid>
+      <guid>https://mingzz1.github.io/tags/iOS/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pentesting</title>
-      <link>/tags/Pentesting/</link>
+      <link>https://mingzz1.github.io/tags/Pentesting/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Pentesting/</guid>
+      <guid>https://mingzz1.github.io/tags/Pentesting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OWASP-MSTG</title>
-      <link>/tags/OWASP-MSTG/</link>
+      <link>https://mingzz1.github.io/tags/OWASP-MSTG/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/OWASP-MSTG/</guid>
+      <guid>https://mingzz1.github.io/tags/OWASP-MSTG/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Write-up</title>
-      <link>/tags/Write-up/</link>
+      <link>https://mingzz1.github.io/tags/Write-up/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Write-up/</guid>
+      <guid>https://mingzz1.github.io/tags/Write-up/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>/tags/Android/</link>
+      <link>https://mingzz1.github.io/tags/Android/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Android/</guid>
+      <guid>https://mingzz1.github.io/tags/Android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frida</title>
-      <link>/tags/Frida/</link>
+      <link>https://mingzz1.github.io/tags/Frida/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Frida/</guid>
+      <guid>https://mingzz1.github.io/tags/Frida/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Error</title>
-      <link>/tags/Error/</link>
+      <link>https://mingzz1.github.io/tags/Error/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Error/</guid>
+      <guid>https://mingzz1.github.io/tags/Error/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMware</title>
-      <link>/tags/VMware/</link>
+      <link>https://mingzz1.github.io/tags/VMware/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/VMware/</guid>
+      <guid>https://mingzz1.github.io/tags/VMware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>/tags/Windows/</link>
+      <link>https://mingzz1.github.io/tags/Windows/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Windows/</guid>
+      <guid>https://mingzz1.github.io/tags/Windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xshell</title>
-      <link>/tags/Xshell/</link>
+      <link>https://mingzz1.github.io/tags/Xshell/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Xshell/</guid>
+      <guid>https://mingzz1.github.io/tags/Xshell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>/tags/Jekyll/</link>
+      <link>https://mingzz1.github.io/tags/Jekyll/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Jekyll/</guid>
+      <guid>https://mingzz1.github.io/tags/Jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BurpSuite</title>
-      <link>/tags/BurpSuite/</link>
+      <link>https://mingzz1.github.io/tags/BurpSuite/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/BurpSuite/</guid>
+      <guid>https://mingzz1.github.io/tags/BurpSuite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>/tags/Cloud/</link>
+      <link>https://mingzz1.github.io/tags/Cloud/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Cloud/</guid>
+      <guid>https://mingzz1.github.io/tags/Cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>/tags/Security/</link>
+      <link>https://mingzz1.github.io/tags/Security/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Security/</guid>
+      <guid>https://mingzz1.github.io/tags/Security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>/tags/Web/</link>
+      <link>https://mingzz1.github.io/tags/Web/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Web/</guid>
+      <guid>https://mingzz1.github.io/tags/Web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Secure Coding</title>
-      <link>/tags/Secure-Coding/</link>
+      <link>https://mingzz1.github.io/tags/Secure-Coding/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Secure-Coding/</guid>
+      <guid>https://mingzz1.github.io/tags/Secure-Coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring</title>
-      <link>/tags/Spring/</link>
+      <link>https://mingzz1.github.io/tags/Spring/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Spring/</guid>
+      <guid>https://mingzz1.github.io/tags/Spring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>/tags/Web-Development/</link>
+      <link>https://mingzz1.github.io/tags/Web-Development/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Web-Development/</guid>
+      <guid>https://mingzz1.github.io/tags/Web-Development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/tags/Python/</link>
+      <link>https://mingzz1.github.io/tags/Python/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Python/</guid>
+      <guid>https://mingzz1.github.io/tags/Python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>/tags/Docker/</link>
+      <link>https://mingzz1.github.io/tags/Docker/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Docker/</guid>
+      <guid>https://mingzz1.github.io/tags/Docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>/tags/Database/</link>
+      <link>https://mingzz1.github.io/tags/Database/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Database/</guid>
+      <guid>https://mingzz1.github.io/tags/Database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DB2</title>
-      <link>/tags/DB2/</link>
+      <link>https://mingzz1.github.io/tags/DB2/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/DB2/</guid>
+      <guid>https://mingzz1.github.io/tags/DB2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CCE2019</title>
-      <link>/tags/CCE2019/</link>
+      <link>https://mingzz1.github.io/tags/CCE2019/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/CCE2019/</guid>
+      <guid>https://mingzz1.github.io/tags/CCE2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CTF</title>
-      <link>/tags/CTF/</link>
+      <link>https://mingzz1.github.io/tags/CTF/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/CTF/</guid>
+      <guid>https://mingzz1.github.io/tags/CTF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>POXX2019</title>
-      <link>/tags/POXX2019/</link>
+      <link>https://mingzz1.github.io/tags/POXX2019/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/POXX2019/</guid>
+      <guid>https://mingzz1.github.io/tags/POXX2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lord of SQL Injection</title>
-      <link>/tags/Lord-of-SQL-Injection/</link>
+      <link>https://mingzz1.github.io/tags/Lord-of-SQL-Injection/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Lord-of-SQL-Injection/</guid>
+      <guid>https://mingzz1.github.io/tags/Lord-of-SQL-Injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Defcon2019</title>
-      <link>/tags/Defcon2019/</link>
+      <link>https://mingzz1.github.io/tags/Defcon2019/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Defcon2019/</guid>
+      <guid>https://mingzz1.github.io/tags/Defcon2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VolgaCTF2019</title>
-      <link>/tags/VolgaCTF2019/</link>
+      <link>https://mingzz1.github.io/tags/VolgaCTF2019/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/VolgaCTF2019/</guid>
+      <guid>https://mingzz1.github.io/tags/VolgaCTF2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code Server</title>
-      <link>/tags/Code-Server/</link>
+      <link>https://mingzz1.github.io/tags/Code-Server/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Code-Server/</guid>
+      <guid>https://mingzz1.github.io/tags/Code-Server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>/tags/Javascript/</link>
+      <link>https://mingzz1.github.io/tags/Javascript/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Javascript/</guid>
+      <guid>https://mingzz1.github.io/tags/Javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obfuscation</title>
-      <link>/tags/Obfuscation/</link>
+      <link>https://mingzz1.github.io/tags/Obfuscation/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Obfuscation/</guid>
+      <guid>https://mingzz1.github.io/tags/Obfuscation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VSCode</title>
-      <link>/tags/VSCode/</link>
+      <link>https://mingzz1.github.io/tags/VSCode/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/VSCode/</guid>
+      <guid>https://mingzz1.github.io/tags/VSCode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pwnable.kr</title>
-      <link>/tags/Pwnable.kr/</link>
+      <link>https://mingzz1.github.io/tags/Pwnable.kr/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Pwnable.kr/</guid>
+      <guid>https://mingzz1.github.io/tags/Pwnable.kr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wargame.kr</title>
-      <link>/tags/Wargame.kr/</link>
+      <link>https://mingzz1.github.io/tags/Wargame.kr/</link>
       <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Wargame.kr/</guid>
+      <guid>https://mingzz1.github.io/tags/Wargame.kr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>insomnihack2019</title>
-      <link>/tags/insomnihack2019/</link>
+      <link>https://mingzz1.github.io/tags/insomnihack2019/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/insomnihack2019/</guid>
+      <guid>https://mingzz1.github.io/tags/insomnihack2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>35C3CTF2018</title>
-      <link>/tags/35C3CTF2018/</link>
+      <link>https://mingzz1.github.io/tags/35C3CTF2018/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/35C3CTF2018/</guid>
+      <guid>https://mingzz1.github.io/tags/35C3CTF2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TenDollar2018</title>
-      <link>/tags/TenDollar2018/</link>
+      <link>https://mingzz1.github.io/tags/TenDollar2018/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/TenDollar2018/</guid>
+      <guid>https://mingzz1.github.io/tags/TenDollar2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RITSEC2018</title>
-      <link>/tags/RITSEC2018/</link>
+      <link>https://mingzz1.github.io/tags/RITSEC2018/</link>
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/RITSEC2018/</guid>
+      <guid>https://mingzz1.github.io/tags/RITSEC2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/tags/Linux/</link>
+      <link>https://mingzz1.github.io/tags/Linux/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Linux/</guid>
+      <guid>https://mingzz1.github.io/tags/Linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>POXX2018</title>
-      <link>/tags/POXX2018/</link>
+      <link>https://mingzz1.github.io/tags/POXX2018/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/POXX2018/</guid>
+      <guid>https://mingzz1.github.io/tags/POXX2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hackover2018</title>
-      <link>/tags/hackover2018/</link>
+      <link>https://mingzz1.github.io/tags/hackover2018/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hackover2018/</guid>
+      <guid>https://mingzz1.github.io/tags/hackover2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chrome Headless</title>
-      <link>/tags/Chrome-Headless/</link>
+      <link>https://mingzz1.github.io/tags/Chrome-Headless/</link>
       <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/Chrome-Headless/</guid>
+      <guid>https://mingzz1.github.io/tags/Chrome-Headless/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISITDTU2018</title>
-      <link>/tags/ISITDTU2018/</link>
+      <link>https://mingzz1.github.io/tags/ISITDTU2018/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ISITDTU2018/</guid>
+      <guid>https://mingzz1.github.io/tags/ISITDTU2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MeePwn2018</title>
-      <link>/tags/MeePwn2018/</link>
+      <link>https://mingzz1.github.io/tags/MeePwn2018/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/MeePwn2018/</guid>
+      <guid>https://mingzz1.github.io/tags/MeePwn2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XSS Game</title>
-      <link>/tags/XSS-Game/</link>
+      <link>https://mingzz1.github.io/tags/XSS-Game/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/XSS-Game/</guid>
+      <guid>https://mingzz1.github.io/tags/XSS-Game/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RCTF2018</title>
-      <link>/tags/RCTF2018/</link>
+      <link>https://mingzz1.github.io/tags/RCTF2018/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/RCTF2018/</guid>
+      <guid>https://mingzz1.github.io/tags/RCTF2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>System</title>
-      <link>/tags/System/</link>
+      <link>https://mingzz1.github.io/tags/System/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/System/</guid>
+      <guid>https://mingzz1.github.io/tags/System/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ISITDTU2018 on mingzzi&#39;s blog</title>
-    <link>/tags/ISITDTU2018/</link>
+    <link>https://mingzz1.github.io/tags/ISITDTU2018/</link>
     <description>Recent content in ISITDTU2018 on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/ISITDTU2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mingzz1.github.io/tags/ISITDTU2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[ISITDTU 2018] Friss Write up</title>
-      <link>/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/07/31/ctf-isitdtu2018-friss.html/</guid>
       <description>&lt;p&gt;갑자기 CTF가 많으니까 풀어볼 문제가 많아졌다.
 근데 다른사람이 작성한 Write-up 보고 문제를 보고 풀면 문제가 진짜 풀리고 배우는 점도 많아서 신난다.&lt;br&gt;
 &lt;del&gt;근데 또 새로운 문제 나오면 못풀겠지&amp;hellip; 공부의 끝은 어디인가&amp;hellip;&lt;/del&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>[ISITDTU 2018] IZ Write up</title>
-      <link>/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</link>
+      <link>https://mingzz1.github.io/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</guid>
+      <guid>https://mingzz1.github.io/ctf/2018/2018/07/29/ctf-isitdtu2018-iz.html/</guid>
       <description>&lt;p&gt;이번 주말에 CTF 천국이었다.
 무려 3개가 비슷한 시기에 있었다.
 사실 &lt;code&gt;ISITDTU CTF&lt;/code&gt;는 대회 시간에 참여를 못했는데, &lt;code&gt;CODEBLUE CTF&lt;/code&gt; 문제를 보다보니 멘탈이 날아가서 이미 끝난 대회 문제를 다시 봤다.
