@@ -644,13 +644,13 @@
   </url>
   
   <url>
-    <loc>https://mingzz1.github.io/ctf/2019/2019/04/18/shadow-cat-writeup.html/</loc>
-    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
+    <loc>https://mingzz1.github.io/ctf/2019/2019/04/08/shadow-cat-writeup.html/</loc>
+    <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mingzz1.github.io/tags/VolgaCTF2019/</loc>
-    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1163,6 +1163,10 @@
   
   <url>
     <loc>https://mingzz1.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/development/cloud/</loc>
   </url>
   
 </urlset>
