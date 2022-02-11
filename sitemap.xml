@@ -4,17 +4,52 @@
   
   <url>
     <loc>https://mingzz1.github.io/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mingzz1.github.io/development/github-blog/2021/08/03/jekyll-to-hugo-rebuild-2.html/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+    <loc>https://mingzz1.github.io/development/cloud/2022/02/11/aws-reinvent2021.html/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/tags/AWS/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/subcategories/cloud/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/tags/Conference/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mingzz1.github.io/development/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/development/cloud/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/subcategories/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/tags/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mingzz1.github.io/development/github-blog/2021/08/03/jekyll-to-hugo-rebuild-2.html/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -40,16 +75,6 @@
   
   <url>
     <loc>https://mingzz1.github.io/tags/Hugo/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mingzz1.github.io/subcategories/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mingzz1.github.io/tags/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -295,11 +320,6 @@
   
   <url>
     <loc>https://mingzz1.github.io/tags/Cloud/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mingzz1.github.io/subcategories/cloud/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -1163,10 +1183,6 @@
   
   <url>
     <loc>https://mingzz1.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mingzz1.github.io/development/cloud/</loc>
   </url>
   
 </urlset>
