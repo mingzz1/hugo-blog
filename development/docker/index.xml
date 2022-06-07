@@ -6,10 +6,20 @@
     <description>Recent content in Development/Docker on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mingzz1.github.io/development/docker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Docker] Docker 설치 방법</title>
+      <link>https://mingzz1.github.io/development/docker/2022/06/06/docker-installation.html/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/development/docker/2022/06/06/docker-installation.html/</guid>
+      <description>&lt;p&gt;매 번 &lt;code&gt;Docker&lt;/code&gt;를 쓸 때 마다 인터넷 검색을 한다.
+그러다보니 검색하기 귀찮아서 내 블로그에 명령어를 적어 둔다!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Docker] Docker 명령어</title>

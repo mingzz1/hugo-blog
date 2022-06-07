@@ -6,10 +6,19 @@
     <description>Recent content in Tags on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mingzz1.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker</title>
+      <link>https://mingzz1.github.io/tags/Docker/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/tags/Docker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Github</title>
@@ -233,15 +242,6 @@
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mingzz1.github.io/tags/Python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://mingzz1.github.io/tags/Docker/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingzz1.github.io/tags/Docker/</guid>
       <description></description>
     </item>
     

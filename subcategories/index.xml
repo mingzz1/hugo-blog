@@ -6,10 +6,19 @@
     <description>Recent content in Subcategories on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mingzz1.github.io/subcategories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://mingzz1.github.io/subcategories/docker/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/subcategories/docker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>github-blog</title>
@@ -107,15 +116,6 @@
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mingzz1.github.io/subcategories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://mingzz1.github.io/subcategories/docker/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingzz1.github.io/subcategories/docker/</guid>
       <description></description>
     </item>
     
