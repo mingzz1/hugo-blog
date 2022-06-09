@@ -345,31 +345,31 @@ $ <span style="color:#8be9fd;font-style:italic">cd</span> learn-terraform-docker
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#6272a4"># main.tf</span>
-terraform {
-  required_providers {
-    docker <span style="color:#ff79c6">=</span> {
-      source  <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;kreuzwerker/docker&#34;</span>
-      version <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;~&gt; 2.13.0&#34;</span>
-    }
-  }
-}
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># main.tf</span>
+terraform <span style="color:#ff79c6">{</span>
+  required_providers <span style="color:#ff79c6">{</span>
+    <span style="color:#8be9fd;font-style:italic">docker</span> <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">{</span>
+      <span style="color:#8be9fd;font-style:italic">source</span>  <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;kreuzwerker/docker&#34;</span>
+      <span style="color:#8be9fd;font-style:italic">version</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;~&gt; 2.13.0&#34;</span>
+    <span style="color:#ff79c6">}</span>
+  <span style="color:#ff79c6">}</span>
+<span style="color:#ff79c6">}</span>
 
-provider <span style="color:#f1fa8c">&#34;docker&#34;</span> {}
+provider <span style="color:#f1fa8c">&#34;docker&#34;</span> <span style="color:#ff79c6">{}</span>
 
-resource <span style="color:#f1fa8c">&#34;docker_image&#34;</span> <span style="color:#f1fa8c">&#34;nginx&#34;</span> {
-  name         <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;nginx:latest&#34;</span>
-  keep_locally <span style="color:#ff79c6">=</span> false
-}
+resource <span style="color:#f1fa8c">&#34;docker_image&#34;</span> <span style="color:#f1fa8c">&#34;nginx&#34;</span> <span style="color:#ff79c6">{</span>
+  <span style="color:#8be9fd;font-style:italic">name</span>         <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;nginx:latest&#34;</span>
+  <span style="color:#8be9fd;font-style:italic">keep_locally</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">false</span>
+<span style="color:#ff79c6">}</span>
 
-resource <span style="color:#f1fa8c">&#34;docker_container&#34;</span> <span style="color:#f1fa8c">&#34;nginx&#34;</span> {
-  image <span style="color:#ff79c6">=</span> docker_image.nginx.latest
-  name  <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;tutorial&#34;</span>
-  ports {
-    internal <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">80</span>
-    external <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">8000</span>
-  }
-}
+resource <span style="color:#f1fa8c">&#34;docker_container&#34;</span> <span style="color:#f1fa8c">&#34;nginx&#34;</span> <span style="color:#ff79c6">{</span>
+  <span style="color:#8be9fd;font-style:italic">image</span> <span style="color:#ff79c6">=</span> docker_image.nginx.latest
+  <span style="color:#8be9fd;font-style:italic">name</span>  <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;tutorial&#34;</span>
+  ports <span style="color:#ff79c6">{</span>
+    <span style="color:#8be9fd;font-style:italic">internal</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">80</span>
+    <span style="color:#8be9fd;font-style:italic">external</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">8000</span>
+  <span style="color:#ff79c6">}</span>
+<span style="color:#ff79c6">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>다음으로 Terraform이 Docker와 상호작용할 수 있도록 하는 플러그인을 다운받기 위해 아래와 같이 프로젝트를 initializing 한다.</p>
@@ -658,6 +658,9 @@ a87ec03b595d   0e901e68141f   <span style="color:#f1fa8c">&#34;/docker-entrypoin
     </div>
 
     <div id="next-post" class="post-nav-post">
+        
+        <p>Next post</p>
+        <a href="https://mingzz1.github.io/development/cloud/2022/06/09/terraform-with-aws.html/">[Terraform 사용기] Terraform 으로 AWS Instance 생성/수정/삭제 하기</a>
         
     </div>
 </div>
