@@ -6,10 +6,20 @@
     <description>Recent content in ios on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mingzz1.github.io/subcategories/ios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[iOS] MacOS에서 iOS 탈옥하기 (with. AltStore, UnC0ver)</title>
+      <link>https://mingzz1.github.io/pentesting/ios/2023/03/16/iOS-jailbreak-2.html/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/pentesting/ios/2023/03/16/iOS-jailbreak-2.html/</guid>
+      <description>&lt;p&gt;한동안 iOS 탈옥을 할 일이 없다가 다시 하려고 하니까 그동안 세상이 너무 많이 바뀌었다 ㅋㅋ&lt;br&gt;
+거기다가 회사에서는 맥북을 써서 새로운 탈옥 방법을 정리 해 두려고 한다.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[iOS] mitmproxy 설치하기 (Macbook Pro &#43; iOS)</title>

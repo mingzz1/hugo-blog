@@ -6,10 +6,28 @@
     <description>Recent content in Tags on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mingzz1.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iOS</title>
+      <link>https://mingzz1.github.io/tags/iOS/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/tags/iOS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pentesting</title>
+      <link>https://mingzz1.github.io/tags/Pentesting/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/tags/Pentesting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AWS</title>
@@ -89,24 +107,6 @@
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mingzz1.github.io/tags/Jenkins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iOS</title>
-      <link>https://mingzz1.github.io/tags/iOS/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingzz1.github.io/tags/iOS/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pentesting</title>
-      <link>https://mingzz1.github.io/tags/Pentesting/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingzz1.github.io/tags/Pentesting/</guid>
       <description></description>
     </item>
     
