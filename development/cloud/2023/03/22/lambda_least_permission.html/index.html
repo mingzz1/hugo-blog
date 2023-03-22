@@ -11,7 +11,7 @@
     <title> mingzzi&#39;s blog </title>
     <meta name="description" content="mingzzi&#39;s blog">
 
-    <link rel="canonical" href="https://mingzz1.github.io/development/cloud/">
+    <link rel="canonical" href="https://mingzz1.github.io/development/cloud/2023/03/22/lambda_least_permission.html/">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 
@@ -170,147 +170,77 @@
     <div class="content">
         
         
-<div class="home">
-    <div class="posts">
-        <nav>
-    <h2>Menu</h2>
-    <ul class="slide">
-        <li class="on"><a href="/">All Post</a>
-        </li>
-        <li><a>Pentesting</a>
-            <ul>
-                <li><a href="https://mingzz1.github.io//pentesting/ios">iOS</a></li>
-                <li><a href="https://mingzz1.github.io//pentesting/android">Android</a></li>
-                <li><a href="https://mingzz1.github.io//pentesting/web">Web</a></li>
-                <li><a href="https://mingzz1.github.io//pentesting/cloud">Cloud</a></li>
-            </ul>
-            <span class="down"></span>
-        </li>
-        <li><a>Wargame</a>
-            <ul>
-                <li><a href="https://mingzz1.github.io//wargame/lord-of-sql-injection">Lord of SQL Injection</a></li>
-                <li><a href="https://mingzz1.github.io//wargame/pwnable.kr">Pwnable.kr</a></li>
-                <li><a href="https://mingzz1.github.io//wargame/wargame.kr">Wargame.kr</a></li>
-                <li><a href="https://mingzz1.github.io//wargame/xss-game">XSS Game</a></li>
-                <li><a href="https://mingzz1.github.io//wargame/owasp">OWASP-MSTG Crackmes</a></li>
-            </ul>
-            <span class="down"></span>
-        </li>
-        <li><a>CTF</a>
-            <ul>
-                <li><a href="https://mingzz1.github.io//ctf/2018">2018</a></li>
-                <li><a href="https://mingzz1.github.io//ctf/2019">2019</a></li>
-            </ul>
-            <span class="down"></span>
-        </li>
-        <li><a>Error</a>
-            <ul>
-                <li><a href="https://mingzz1.github.io//error/linux">Linux</a></li>
-                <li><a href="https://mingzz1.github.io//error/windows">Windows</a></li>
-                <li><a href="https://mingzz1.github.io//error/python">Python</a></li>
-            </ul>
-            <span class="down"></span>
-        </li>
-        <li><a>Development</a>
-            <ul>
-                <li><a href="https://mingzz1.github.io//development/basic">Basic</a></li>
-                <li><a href="https://mingzz1.github.io//development/web">Web</a></li>
-                <li><a href="https://mingzz1.github.io//development/mobile">Mobile</a></li>
-                <li><a href="https://mingzz1.github.io//development/database">Database</a></li>
-                <li><a href="https://mingzz1.github.io//development/docker">Docker</a></li>
-                <li><a href="https://mingzz1.github.io//development/github-blog">Github Blog</a></li>
-                <li><a href="https://mingzz1.github.io//development/secure-coding">Secure Coding</a></li>
-                <li><a href="https://mingzz1.github.io//development/cloud">Cloud</a></li>
-            </ul>
-            <span class="down"></span>
-        </li>
-        <hr />
-        <li><a href="https://mingzz1.github.io//about">About</a></li>
-        <li><a href="https://mingzz1.github.io//archive">Archive</a></li>
-        <li><a href="https://mingzz1.github.io//tags">Tag</a></li>
-    </ul>
-</nav>
 
-        <div>
-            <h3> Development/Cloud <span>4</span></h3>
-            <ul class="post-box">
-                
-                <li class="post-teaser">
-                    <a href="https://mingzz1.github.io/development/cloud/2023/03/22/lambda_least_permission.html/">
-                        <div>
-                            <h4>[AWS Lambda] AWS Lambda Permission Error</h4>
-                            <div class="post-info">
-                                <p class="meta">
-                                    2023-03-22
-                                </p>
-                                <div class="excerpt">
-                                    <p>AWS에 <code>Lambda</code>라고 <code>Serverless</code> 서비스가 있다.
+<article>
+    <header>
+        <h1 class="title">[AWS Lambda] AWS Lambda Permission Error</h1>
+        <p class="meta">
+            2023-03-22
+        </p>
+    </header>
+    <section class="post-content"><p>AWS에 <code>Lambda</code>라고 <code>Serverless</code> 서비스가 있다.
 이번에 Lambda에 Docker Image를 생성하여 올리려고 하는데 오류가 발생해서 그 내용을 정리 해 두려 한다.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                
-                <li class="post-teaser">
-                    <a href="https://mingzz1.github.io/development/cloud/2022/06/12/terraform-with-variable.html/">
-                        <div>
-                            <h4>[Terraform 사용기] Terraform에 변수 사용하기</h4>
-                            <div class="post-info">
-                                <p class="meta">
-                                    2022-06-12
-                                </p>
-                                <div class="excerpt">
-                                    <p>지난 번에는 인스턴스의 리소스 등의 설정을 하드코딩하여 인스턴스를 생성했었다.
-하지만 실제 사용하다 보면 인스턴스를 여러 개 생성해야 할 수도 있는데, 그 때마다 새로운 프로젝트와 새로운 main.tf를 생성하여 인스턴스를 생성할 수는 없다.
-그래서 이번에는 terraform에 변수를 사용하여 인스턴스를 생성하는 방법을 알아보았다.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                
-                <li class="post-teaser">
-                    <a href="https://mingzz1.github.io/development/cloud/2022/06/09/terraform-with-aws.html/">
-                        <div>
-                            <h4>[Terraform 사용기] Terraform 으로 AWS Instance 생성/수정/삭제 하기</h4>
-                            <div class="post-info">
-                                <p class="meta">
-                                    2022-06-09
-                                </p>
-                                <div class="excerpt">
-                                    <p>오늘은 원래 Terraform을 사용해서 <code>AWS Instance의 생성</code>만 테스트 해 보려고 했다.
-근데 하다보니까 튜토리얼이 간단해서인지 금방 끝나서 생성 뿐만 아니라 수정과 삭제도 함께 테스트 해 보았다.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                
-                <li class="post-teaser">
-                    <a href="https://mingzz1.github.io/development/cloud/2022/06/07/terraform-installation.html/">
-                        <div>
-                            <h4>[Terraform 사용기] Terraform 설치하기</h4>
-                            <div class="post-info">
-                                <p class="meta">
-                                    2022-06-07
-                                </p>
-                                <div class="excerpt">
-                                    <p>공부해야지 공부해야지 다짐만 하다가 드디어 시작힌 <code>Terraform</code> 공부다.
-현생이 너무 바빠 이제서야 시작했지만, 튜토리얼부터 차근차근 해보려 한다.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
+<p><code>AWS Lambda</code>를 먼저 간단하게 설명하면 <code>Serverless</code> 서버이다.
+때문에 내가 서버를 따로 구축하지 않고도 코드를 실행시킬 수 있다.<br>
+물론 진짜로 서버가 없는 것은 아니고, AWS에서 미리 서버들을 구축 해 두고 사용자들은 필요할때만 특정 환경에 맞는 서버를 잠시 빌려 쓰는 개념이라고 생각하면 된다.</p>
+<p>때문에 모든 개발언어나 환경을 지원하는 것은 아니고, Lambda에서 지원하는 런타임이 따로 있다.
+지원하는 런타임은 <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html">여기</a>에서 확인할 수 있다.</p>
+<p>Lambda는 직접 코드를 올릴수도 있고 <code>AWS ECR</code>을 활용하여 Docker Image를 올릴수도 있는데, 내가 Lambda로 실행하려는 코드는 Ubuntu에 특정 데몬을 설치하고 실행시켜야 해 Docker Image를 빌드해서 올렸다.<br>
+그런데 문제는 아래와 같은 오류가 계속 발생 한 것이다.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plain" data-lang="plain">mkdir: cannot create directory &#39;/var/run/XXX&#39;: Permission denied
+chown: cannot access &#39;/var/run/XXX&#39;: No such file or directory
+</code></pre></td></tr></table>
+</div>
+</div><p>웃긴건 로컬에서 빌드해서 실행했을 때는 너무나 잘된다는 것이다 ㅠㅠ<br>
+만약 <code>/var/run/XXX</code> 폴더를 Docker Image를 빌드할 때 생성 해 주면 그때는 <code>chown: invalid user: username</code>에러가 나온다.</p>
+<p>그래서 좀 리서치를 해 보았더니 Lambda는 보안상의 이유로 <code>최소권한을 가진 유저</code>로 코드를 실행한다고 한다.<br>
+때문에 root 권한으로 실행해야 하는 코드는 권한 문제로 실행되지 않는다. ㅠㅠ</p>
+<p>예를 들어 <code>Flask</code>를 실행할 때 Port를 80번으로 설정 할 경우, 80번은 <code>Privileged Port</code> 즉, root 권한이 필요하기 때문에 Lambda에서는 실행할 수 없다. 8080 등 다른 Port를 설정 해 사용해야 한다.</p>
+<p>다행히 나는 내가 실행시켜야 하는 데몬이 다른 OS의 환경에서 root 권한이 없어도 사용 가능 해 해당 방식으로 해결했다. 만약 불가능하다면 Docker Image에서 필요한 dependency를 모두 설치 후 이를 통째로 zip 파일로 말아 Lambda에 올리는 방법도 있다고 한다. 이 부분은 나중에 성공하면 따로 포스팅 해 볼 예정이다. ㅎㅎ</p>
+<p>아 추가로, ECR에 Docker Image를 올려서 Lambda 함수를 생성 할 때는 로컬이나 일반 서버에서 돌리는 것과는 다르게 Dockerfile을 구성해야 한다. <a href="https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/images-create.html">참고</a></p>
+<p>이 부분도 나중에 따로 포스팅 할 예정이다. ㅎㅎ</p></section>
+    <footer>
+    <div class="tags">
+        
+        <a href="https://mingzz1.github.io//tags#Cloud">#Cloud</a>
+        
+        <a href="https://mingzz1.github.io//tags#Development">#Development</a>
+        
+    </div>
+</footer>
+</article>
+
+<div class="comments">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'mingzzis-blog';
+    (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+</div>
+
+<div id="post-nav">
+    <div id="previous-post" class="post-nav-post">
+        
+        <p>Previous post</p>
+        <a href="https://mingzz1.github.io/pentesting/ios/2023/03/16/iOS-jailbreak-2.html/">[iOS] MacOS에서 iOS 탈옥하기 (with. AltStore, UnC0ver)</a>
+        
     </div>
 
-    
-
+    <div id="next-post" class="post-nav-post">
+        
+    </div>
 </div>
+
 
     </div>
     <ul class='social'>

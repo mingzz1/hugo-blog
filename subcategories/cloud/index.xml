@@ -6,10 +6,20 @@
     <description>Recent content in cloud on mingzzi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mingzz1.github.io/subcategories/cloud/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[AWS Lambda] AWS Lambda Permission Error</title>
+      <link>https://mingzz1.github.io/development/cloud/2023/03/22/lambda_least_permission.html/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingzz1.github.io/development/cloud/2023/03/22/lambda_least_permission.html/</guid>
+      <description>&lt;p&gt;AWS에 &lt;code&gt;Lambda&lt;/code&gt;라고 &lt;code&gt;Serverless&lt;/code&gt; 서비스가 있다.
+이번에 Lambda에 Docker Image를 생성하여 올리려고 하는데 오류가 발생해서 그 내용을 정리 해 두려 한다.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Terraform 사용기] Terraform에 변수 사용하기</title>
